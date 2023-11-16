@@ -7,9 +7,9 @@
 	>
 <channel>
 	<title>
-	Comments for Kamiweb Project	</title>
-	<atom:link href="https://www.kamiwebproject.com/comments/feed/" rel="self" type="application/rss+xml" />
-	<link>https://www.kamiwebproject.com</link>
+	Comments on: Hello world!	</title>
+	<atom:link href="https://www.kamiwebproject.com/hello-world/feed/" rel="self" type="application/rss+xml" />
+	<link>https://www.kamiwebproject.com/hello-world/</link>
 	<description></description>
 	<lastBuildDate>Tue, 14 Nov 2023 14:12:35 +0000</lastBuildDate>
 	<sy:updatePeriod>
@@ -19,7 +19,7 @@
 	<generator>https://wordpress.org/?v=6.4.1</generator>
 	<item>
 		<title>
-		Comment on Hello world! by A WordPress Commenter		</title>
+		By: A WordPress Commenter		</title>
 		<link>https://www.kamiwebproject.com/hello-world/#comment-1</link>
 
 		<dc:creator><![CDATA[A WordPress Commenter]]></dc:creator>
