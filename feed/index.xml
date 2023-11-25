@@ -19,6 +19,14 @@
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
 	<generator>https://wordpress.org/?v=6.4.1</generator>
+
+<image>
+	<url>https://www.kamiwebproject.com/wp-content/uploads/2023/11/cropped-ei2mrf1ejtveyjlbmmpr-2-32x32.png</url>
+	<title>Kamiweb Project</title>
+	<link>https://www.kamiwebproject.com</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
 	<item>
 		<title>Hello world!</title>
 		<link>https://www.kamiwebproject.com/hello-world/</link>
