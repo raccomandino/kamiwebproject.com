@@ -2,8 +2,8 @@
 	font-family: 'Material Icons';
 	font-style: normal;
 	font-weight: 400;
-	src: url(https://www.kamiwebproject.com/wp-content/plugins/icon-element/assets/material-icons/fonts/MaterialIcons-Regular.eot);
-	src: local("Material Icons"), local("MaterialIcons-Regular"), url(https://www.kamiwebproject.com/wp-content/plugins/icon-element/assets/material-icons/fonts/MaterialIcons-Regular.woff2) format("woff2"), url(https://www.kamiwebproject.com/wp-content/plugins/icon-element/assets/material-icons/fonts/MaterialIcons-Regular.woff) format("woff"), url(https://www.kamiwebproject.com/wp-content/plugins/icon-element/assets/material-icons/fonts/MaterialIcons-Regular.ttf) format("truetype")
+	src: url(../fonts/MaterialIcons-Regular.eot);
+	src: local("Material Icons"), local("MaterialIcons-Regular"), url(../fonts/MaterialIcons-Regular.woff2) format("woff2"), url(../fonts/MaterialIcons-Regular.woff) format("woff"), url(../fonts/MaterialIcons-Regular.ttf) format("truetype")
 }
 
 .material-icons {

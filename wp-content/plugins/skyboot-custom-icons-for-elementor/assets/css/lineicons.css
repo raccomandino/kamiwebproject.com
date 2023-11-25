@@ -6,8 +6,8 @@ Author: lineicons.com
 -------------------------------- */
 @font-face {
   font-family: 'LineIcons';
-  src: url('https://www.kamiwebproject.com/wp-content/plugins/skyboot-custom-icons-for-elementor/assets/fonts/LineIcons.eot');
-  src: url('https://www.kamiwebproject.com/wp-content/plugins/skyboot-custom-icons-for-elementor/assets/fonts/LineIcons.eot') format('embedded-opentype'), url('https://www.kamiwebproject.com/wp-content/plugins/skyboot-custom-icons-for-elementor/assets/fonts/LineIcons.woff2') format('woff2'), url('https://www.kamiwebproject.com/wp-content/plugins/skyboot-custom-icons-for-elementor/assets/fonts/LineIcons.woff') format('woff'), url('https://www.kamiwebproject.com/wp-content/plugins/skyboot-custom-icons-for-elementor/assets/fonts/LineIcons.ttf') format('truetype'), url('https://www.kamiwebproject.com/wp-content/plugins/skyboot-custom-icons-for-elementor/assets/fonts/LineIcons.svg') format('svg');
+  src: url('../fonts/LineIcons.eot');
+  src: url('../fonts/LineIcons.eot') format('embedded-opentype'), url('../fonts/LineIcons.woff2') format('woff2'), url('../fonts/LineIcons.woff') format('woff'), url('../fonts/LineIcons.ttf') format('truetype'), url('../fonts/LineIcons.svg') format('svg');
   font-weight: normal;
   font-style: normal;
 }
