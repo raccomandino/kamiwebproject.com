@@ -9,8 +9,8 @@
 
 <channel>
 	<title>Kamiweb Project</title>
-	<atom:link href="https://www.kamiwebproject.com/feed/" rel="self" type="application/rss+xml" />
-	<link>https://www.kamiwebproject.com</link>
+	<atom:link href="/feed/" rel="self" type="application/rss+xml" />
+	<link></link>
 	<description></description>
 	<lastBuildDate>Tue, 14 Nov 2023 14:12:35 +0000</lastBuildDate>
 	<language>en-US</language>
@@ -21,28 +21,28 @@
 	<generator>https://wordpress.org/?v=6.4.1</generator>
 
 <image>
-	<url>https://www.kamiwebproject.com/wp-content/uploads/2023/11/cropped-ei2mrf1ejtveyjlbmmpr-2-32x32.png</url>
+	<url>/wp-content/uploads/2023/11/cropped-ei2mrf1ejtveyjlbmmpr-2-32x32.png</url>
 	<title>Kamiweb Project</title>
-	<link>https://www.kamiwebproject.com</link>
+	<link></link>
 	<width>32</width>
 	<height>32</height>
 </image> 
 	<item>
 		<title>Hello world!</title>
-		<link>https://www.kamiwebproject.com/hello-world/</link>
-					<comments>https://www.kamiwebproject.com/hello-world/#comments</comments>
+		<link>/hello-world/</link>
+					<comments>/hello-world/#comments</comments>
 		
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<pubDate>Tue, 14 Nov 2023 14:12:35 +0000</pubDate>
 				<category><![CDATA[Uncategorized]]></category>
-		<guid isPermaLink="false">https://www.kamiwebproject.com/?p=1</guid>
+		<guid isPermaLink="false">/?p=1</guid>
 
 					<description><![CDATA[Welcome to WordPress. This is your first post. Edit or delete it, then start writing!]]></description>
 										<content:encoded><![CDATA[
 <p>Welcome to WordPress. This is your first post. Edit or delete it, then start writing!</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://www.kamiwebproject.com/hello-world/feed/</wfw:commentRss>
+					<wfw:commentRss>/hello-world/feed/</wfw:commentRss>
 			<slash:comments>1</slash:comments>
 		
 		
