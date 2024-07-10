@@ -1,0 +1,205 @@
+/* Elementor editor styles - dark */
+
+.elementor-control-_ob_steroids_background_overlay .elementor-panel-heading-title:after, 
+.elementor-control-_ob_overlaiz_plugin_title:after, 
+.elementor-control-_ob_harakiri_plugin_title:after, 
+.elementor-control-_ob_paginini_plugin_title:after, 
+.elementor-control-_ob_photogiraffe_plugin_title:after, 
+.elementor-control-_ob_bbad_section_title:after, 
+.elementor-control-_ob_bbad_column_title:after, 
+.elementor-control-_ob_teleporter_plugin_title:after, 
+.elementor-control-_ob_cartshut_plugin_title:after, 
+.elementor-control-_ob_searchcop_plugin_title:after, 
+.elementor-control-_ob_videomasq_plugin_title:after, 
+.elementor-control-_ob_butterbutton:after, 
+.elementor-control-_ob_perspektive:after, 
+.elementor-control-_ob_shadough:after, 
+.elementor-control-_ob_photomorph:after, 
+.elementor-control-_ob_commentz:after, 
+.elementor-control-_ob_spacerat:after, 
+.elementor-control-_ob_imbox_img:after, 
+.elementor-control-_ob_imbox_cont:after, 
+.elementor-control-_ob_icobox_img:after, 
+.elementor-control-_ob_icobox_cont:after, 
+.elementor-control-_ob_hoveranimator_section_title:after, 
+.elementor-control-_ob_hoveranimator_panel:after, 
+.elementor-control-_ob_kontrolz:after, 
+.elementor-control-_ob_widget_stalker:after, 
+.elementor-control-_ob_pseudo_section_title:after, 
+.elementor-control-_ob_loco_title_section:after, 
+.elementor-control-_ob_bullet:after, 
+.elementor-control-_ob_container_extras:after, 
+.elementor-control-_ob_animator_section_title:after, 
+.elementor-control-_ob_steroids_interactor:after, 
+.elementor-control-_ob_counterz_title:after, 
+.elementor-control-_ob_tabbr_title:after, 
+.elementor-control-_ob_postman:after {
+	content: "";
+	position: absolute;
+	height: 20px;
+	width: 20px;
+	top: 10px;
+	right: 20px;
+	background-image: url("../img/ooohboi-poopart-icon.png");
+    background-position: center center;
+    background-size: cover;
+    z-index: 1;
+}
+.elementor-control-_ob_hoveranimator_section_title .elementor-control-content:before, 
+.elementor-control-_ob_hoveranimator_panel:before {
+	content: "";
+	position: absolute;
+	height: 6px;
+	width: 6px;
+	top: 0px;
+	left: 0px;
+    background-color: #ff743d;
+    z-index: 1;
+}
+.elementor-control-_ob_widget_stalker:before, 
+.elementor-control-_ob_bbad_section_title_0:before {
+	content: "";
+	position: absolute;
+	height: 6px;
+	width: 6px;
+	top: 0px;
+	left: 0px;
+    background-color: #4ffd00;
+    z-index: 1;
+}
+.rtl .elementor-control-_ob_steroids_background_overlay .elementor-panel-heading-title:after, 
+.rtl .elementor-control-_ob_overlaiz_plugin_title:after, 
+.rtl .elementor-control-_ob_harakiri_plugin_title:after, 
+.rtl .elementor-control-_ob_paginini_plugin_title:after, 
+.rtl .elementor-control-_ob_photogiraffe_plugin_title:after, 
+.rtl .elementor-control-_ob_bbad_section_title:after, 
+.rtl .elementor-control-_ob_bbad_column_title:after, 
+.rtl .elementor-control-_ob_teleporter_plugin_title:after, 
+.rtl .elementor-control-_ob_cartshut_plugin_title:after, 
+.rtl .elementor-control-_ob_searchcop_plugin_title:after, 
+.rtl .elementor-control-_ob_videomasq_plugin_title:after, 
+.rtl .elementor-control-_ob_butterbutton:after, 
+.rtl .elementor-control-_ob_perspektive:after, 
+.rtl .elementor-control-_ob_shadough:after, 
+.rtl .elementor-control-_ob_photomorph:after, 
+.rtl .elementor-control-_ob_commentz:after, 
+.rtl .elementor-control-_ob_spacerat:after, 
+.rtl .elementor-control-_ob_imbox_img:after, 
+.rtl .elementor-control-_ob_imbox_cont:after, 
+.rtl .elementor-control-_ob_icobox_img:after, 
+.rtl .elementor-control-_ob_icobox_cont:after, 
+.rtl .elementor-control-_ob_hoveranimator_section_title:after, 
+.rtl .elementor-control-_ob_hoveranimator_panel:after, 
+.rtl .elementor-control-_ob_kontrolz:after, 
+.rtl .elementor-control-_ob_widget_stalker:after, 
+.rtl .elementor-control-_ob_pseudo_section_title:after, 
+.rtl .elementor-control-_ob_loco_title_section:after, 
+.rtl .elementor-control-_ob_bullet:after, 
+.rtl .elementor-control-_ob_container_extras:after, 
+.rtl .elementor-control-_ob_animator_section_title:after, 
+.rtl .elementor-control-_ob_steroids_interactor:after, 
+.rtl .elementor-control-_ob_counterz_title:after, 
+.rtl .elementor-control-_ob_tabbr_title:after, 
+.rtl .elementor-control-_ob_postman:after {
+	left: 20px;
+	right: unset;
+}
+.rtl .elementor-control-_ob_hoveranimator_section_title .elementor-control-content:before, 
+.rtl .elementor-control-_ob_hoveranimator_panel:before {
+	right: calc(100% - 6px);
+	left: unset;
+}
+.rtl .elementor-control-_ob_widget_stalker:before, 
+.rtl .elementor-control-_ob_bbad_section_title_0:before {
+	right: calc(100% - 6px);
+	left: unset;
+}
+.ob-is-breaking-bad.elementor-top-section > .elementor-container > .elementor-row, 
+.ob-is-breaking-bad.elementor-inner-section > .elementor-container > .elementor-row {
+	flex-wrap: wrap;
+}
+
+/* NEW mrk */
+sup.ob-new-feature {
+	color: #FF00BE;
+	margin-left: 4px;
+	letter-spacing: 1px;
+}
+
+/* widget stalker */
+.elementor-control-type-raw_html .elementor-control-title {
+	font-size: 12px;
+	font-weight: 600;
+	letter-spacing: 2px;
+}
+
+/* pseudo */
+.elementor-column.ob-is-pseudo .elementor-element-populated:before, 
+.elementor-column.ob-is-pseudo .elementor-element-populated:after {
+	content: '';
+	position: absolute; 
+	pointer-events: none;
+}
+
+/* the Interface 1.9.0 */
+[class*="elementor-control-_ob_"].elementor-control-type-raw_html .elementor-control-content {
+    padding: 12px;
+    background: linear-gradient(90deg, rgba(0,0,0,0.2), rgba(0,0,0,0));
+    border-radius: 4px;
+}
+[class*="elementor-control-_ob_"].elementor-control-type-raw_html .elementor-control-title {
+    color: #e18f5e;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+[class*="elementor-control-_ob_"].elementor-control-type-raw_html .elementor-control-field-description {
+    font-style: normal;
+    font-size: 12px;
+    margin-top: 0;
+}
+[class*="elementor-control-_ob_"].elementor-control-type-raw_html .elementor-control-title + .elementor-control-field-description {
+    margin-top: 10px;
+}
+
+[class*="elementor-control-_ob_"].elementor-control label.elementor-control-title {
+    background: linear-gradient(90deg, #005771, #9198e500);
+    padding: 4px 6px;
+    border-radius: 4px;
+    font-weight: 400;
+    line-height: 1.1;
+}
+/* Oh Animator editor styles - dark */
+[class*="elementor-control-_ob_animator"].elementor-control-type-raw_html .elementor-control-content {
+    padding: 12px;
+    background: linear-gradient(90deg, rgba(0,0,0,0.2), rgba(0,0,0,0));
+    border-radius: 4px;
+}
+[class*="elementor-control-_ob_animator"].elementor-control-type-raw_html .elementor-control-title {
+    color: #e18f5e;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+[class*="elementor-control-_ob_animator"].elementor-control-type-raw_html .elementor-control-field-description {
+    font-style: normal;
+    font-size: 12px;
+    margin-top: 0;
+}
+[class*="elementor-control-_ob_animator"].elementor-control-type-raw_html .elementor-control-title + .elementor-control-field-description {
+    margin-top: 10px;
+}
+[class*="elementor-control-_ob_animator"].elementor-control label.elementor-control-title, 
+[class*="elementor-control-_ob_scrolltrigger"].elementor-control label.elementor-control-title {
+    background: linear-gradient(90deg, #005771, #9198e500);
+    padding: 4px 6px;
+    border-radius: 4px;
+    font-weight: 400;
+    line-height: 1.1;
+}
+.elementor-control-_ob_animator.elementor-control label.elementor-control-title, 
+.elementor-control-_ob_scrolltrigger.elementor-control label.elementor-control-title {
+    background: linear-gradient(90deg, #67800f, #67800f00);
+}

@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon_brands';
-  src:  url('https://www.kamiwebproject.com/wp-content/plugins/skyboot-custom-icons-for-elementor/assets/fonts/icomoon_brands.eot?z876hv');
-  src:  url('https://www.kamiwebproject.com/wp-content/plugins/skyboot-custom-icons-for-elementor/assets/fonts/icomoon_brands.eot?z876hv#iefix') format('embedded-opentype'),
-    url('https://www.kamiwebproject.com/wp-content/plugins/skyboot-custom-icons-for-elementor/assets/fonts/icomoon_brands.ttf?z876hv') format('truetype'),
-    url('https://www.kamiwebproject.com/wp-content/plugins/skyboot-custom-icons-for-elementor/assets/fonts/icomoon_brands.woff?z876hv') format('woff'),
-    url('https://www.kamiwebproject.com/wp-content/plugins/skyboot-custom-icons-for-elementor/assets/fonts/icomoon_brands.svg?z876hv#icomoon_brands') format('svg');
+  src:  url('../fonts/icomoon_brands.eot?z876hv');
+  src:  url('../fonts/icomoon_brands.eot?z876hv#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon_brands.ttf?z876hv') format('truetype'),
+    url('../fonts/icomoon_brands.woff?z876hv') format('woff'),
+    url('../fonts/icomoon_brands.svg?z876hv#icomoon_brands') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;

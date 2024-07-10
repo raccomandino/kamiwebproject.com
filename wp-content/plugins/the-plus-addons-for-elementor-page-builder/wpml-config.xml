@@ -1,0 +1,1164 @@
+<wpml-config>
+    <elementor-widgets>
+        <widget name="tp-accordion">
+            <conditions>
+                <condition key="widgetType">tp-accordion</condition>
+            </conditions>
+            <fields-in-item items_of="tabs">
+                <field type="Accordion: Title" editor_type="LINE">tab_title</field>
+                <field type="Accordion: Content" editor_type="VISUAL">tab_content</field>
+            </fields-in-item>
+        </widget>
+		<widget name="tp-blockquote">
+            <conditions>
+                <condition key="widgetType">tp-blockquote</condition>
+            </conditions>
+			<fields>
+				<field type="Blockquote: Description" editor_type="VISUAL">content_description</field>
+				<field type="Blockquote: Author" editor_type="LINE">quote_author</field>
+            </fields>
+        </widget>
+		<widget name="tp-adv-text-block">
+            <conditions>
+                <condition key="widgetType">tp-adv-text-block</condition>
+            </conditions>
+			<fields>                
+                <field type="Advanced Text Block: Description" editor_type="VISUAL">content_description</field>
+            </fields>
+        </widget>
+		<widget name="tp-advanced-buttons">
+			<conditions>
+				<condition key="widgetType">tp-advanced-buttons</condition>
+			</conditions>
+			<fields>
+				<field type="Advanced Buttons: Button Text" editor_type="LINE">common_button_text</field>
+				<field type="Advanced Buttons: Loading text" editor_type="LINE">dbt_button_text_2</field>
+				<field type="Advanced Buttons: Success text" editor_type="LINE">dbt_button_text_3</field>
+				<field type="Advanced Buttons: Extra Text 1" editor_type="LINE">common_button_text_2</field>
+				<field type="Advanced Buttons: Extra Text" editor_type="LINE">db_common_button_text_2</field>
+				<field type="Advanced Buttons: Extra Text 2" editor_type="LINE">common_button_text_3</field>
+				<field type="Advanced Buttons: URL" editor_type="LINK" key_of="button_link">url</field>
+				<field type="Advanced Buttons: Download File Name" editor_type="LINE">download_file_name</field>
+			</fields>
+		</widget>
+		<widget name="tp-advanced-typography">
+			<conditions>
+				<condition key="widgetType">tp-advanced-typography</condition>
+			</conditions>
+			<fields-in-item items_of="listing_content">
+               <field type="Advanced Typography: Text" editor_type="AREA">typo_text</field>
+			   <field type="Advanced Typography: URL" editor_type="LINK" key_of="text_link">url</field>
+            </fields-in-item>
+			<fields>
+				<field type="Advanced Typography: Text" editor_type="AREA">advanced_typography_text</field>
+				<field type="Advanced Typography: URL" editor_type="LINK" key_of="text_link">url</field>
+			</fields>
+		</widget>
+		<widget name="tp_advertisement_banner">
+			<conditions>
+				<condition key="widgetType">tp_advertisement_banner</condition>
+			</conditions>
+			<fields>
+				<field type="Advertisement Banner: Title" editor_type="LINE">title</field>
+				<field type="Advertisement Banner: SubTitle" editor_type="LINE">subtitle</field>
+				<field type="Advertisement Banner: Button Text" editor_type="LINE">button_text</field>
+				<field type="Advertisement Banner: Hover Text" editor_type="LINE">button_hover_text</field>
+				<field type="Advertisement Banner: URL" editor_type="LINK" key_of="button_link">url</field>
+			</fields>
+		</widget>
+		<widget name="tp-age-gate">
+			<conditions>
+				<condition key="widgetType">tp-age-gate</condition>
+			</conditions>
+			 <fields>
+				<field type="Age Gate: Title" editor_type="LINE">age_gate_title_input</field>
+				<field type="Age Gate: Method 1 Description" editor_type="VISUAL">age_gate_description_input</field>
+				<field type="Age Gate: Method 2 Description" editor_type="VISUAL">age_gate_description_inputwo</field>
+				<field type="Age Gate: Method 3 Description" editor_type="VISUAL">age_gate_description_inputhree</field>
+				<field type="Age Gate: Check Input Text" editor_type="AREA">chkinput_text</field>
+				<field type="Age Gate: Button Text" editor_type="LINE">button_text</field>
+				<field type="Age Gate: Button2 Text" editor_type="LINE">second_button_text</field>
+				<field type="Age Gate: Extra Info" editor_type="VISUAL">age_extra_info</field>
+				<field type="Age Gate: Error Message" editor_type="VISUAL">age_gate_wrong_message</field>
+			</fields>
+		</widget>
+		<widget name="tp-animated-service-boxes">
+            <conditions>
+                <condition key="widgetType">tp-animated-service-boxes</condition>
+            </conditions>
+            <fields-in-item items_of="loop_content">
+               <field type="Animated Service Boxes: Title" editor_type="LINE">loop_title</field>
+			   <field type="Animated Service Boxes: Sub Title" editor_type="LINE">loop_sub_title</field>
+			   <field type="Animated Service Boxes: Description" editor_type="VISUAL">loop_content_desc</field>
+			   <field type="Animated Service Boxes: Button Text" editor_type="LINE">loop_button_text</field>
+			   <field type="Animated Service Boxes: URL" editor_type="LINK" key_of="loop_button_link">url</field>
+			   <field type="Animated Service Boxes: List Content" editor_type="VISUAL">loop_content_list</field>
+            </fields-in-item>
+			<fields>
+				<field type="Animated Service Boxes: Title On Click Text" editor_type="LINE">port_mobile_text</field>
+			</fields>
+        </widget>
+		<widget name="tp-audio-player">
+            <conditions>
+                <condition key="widgetType">tp-audio-player</condition>
+            </conditions>
+            <fields-in-item items_of="playlist">
+               <field type="Audio Player: Song Title" editor_type="LINE">title</field>
+			   <field type="Audio Player: Song Author" editor_type="LINE">author</field>
+			   <field type="Audio Player: URL" editor_type="LINE">source_mp3_url</field>
+            </fields-in-item>
+			<fields>
+				<field type="Audio Player: Split Text" editor_type="LINE">split_text</field>
+			</fields>
+        </widget>
+		<widget name="tp-before-after">
+			<conditions>
+				<condition key="widgetType">tp-before-after</condition>
+			</conditions>
+			<fields>
+				<field type="Before After: Label for Before" editor_type="LINE">before_label</field>
+				<field type="Before After: Label for After" editor_type="LINE">after_label</field>
+			</fields>
+		</widget>
+		<widget name="tp-blog-listout">
+			<conditions>
+				<condition key="widgetType">tp-blog-listout</condition>
+			</conditions>
+			<fields>
+				<field type="Blog/Post Listing: Text" editor_type="LINE">button_text</field>
+				<field type="Blog/Post Listing: All Filter Category Text" editor_type="LINE">all_filter_category</field>
+				<field type="Blog/Post Listing: Pagination Next" editor_type="LINE">pagination_next</field>
+				<field type="Blog/Post Listing: Pagination Previous" editor_type="LINE">pagination_prev</field>
+				<field type="Blog/Post Listing: Button Text" editor_type="LINE">load_more_btn_text</field>
+				<field type="Blog/Post Listing: Loading Text" editor_type="LINE">tp_loading_text</field>
+				<field type="Blog/Post Listing: All Posts Loaded Text" editor_type="LINE">loaded_posts_text</field>
+			</fields>
+		</widget>
+		<widget name="tp-breadcrumbs-bar">
+			<conditions>
+				<condition key="widgetType">tp-breadcrumbs-bar</condition>
+			</conditions>
+			<fields>
+				<field type="Breadcrumbs Bar: Home Title" editor_type="LINE">home_title</field>
+			</fields>
+		</widget>
+		<widget name="tp-button">
+            <conditions>
+                <condition key="widgetType">tp-button</condition>
+            </conditions>
+			<fields>                
+                <field type="Button : Text" editor_type="LINE">button_text</field>
+                <field type="Button : 24 Text" editor_type="LINE">button_24_text</field>
+				<field type="Button : Hover Text" editor_type="LINE">button_hover_text</field>
+				<field type="Button : URL" editor_type="LINK" key_of="button_link">url</field>
+				<field type="Button: Tooltip Description" editor_type="AREA">plus_tooltip_content_desc</field>
+				<field type="Button: Tooltip Content" editor_type="VISUAL">plus_tooltip_content_wysiwyg</field>
+            </fields>
+        </widget>
+		<widget name="tp-carousel-remote">
+			<conditions>
+				<condition key="widgetType">tp-carousel-remote</condition>
+			</conditions>
+			<fields>
+				<field type="Carousel Remote: Button 1 Text" editor_type="LINE">nav_next_slide</field>
+				<field type="Carousel Remote: Button 2 Text" editor_type="LINE">nav_prev_slide</field>
+			</fields>
+			<fields-in-item items_of="dots_coll">
+               <field type="Carousel Remote: Dot Label" editor_type="LINE">label</field>
+            </fields-in-item>
+		</widget>
+		<widget name="tp-cascading-image">
+            <conditions>
+                <condition key="widgetType">tp-cascading-image</condition>
+            </conditions>
+            <fields-in-item items_of="image_cascading">
+               <field type="Image Cascading: Text Content" editor_type="LINE">text_content</field>
+			   <field type="Image Cascading: Tooltip Description" editor_type="AREA">plus_tooltip_content_desc</field>
+			   <field type="Image Cascading: Tooltip Content" editor_type="VISUAL">plus_tooltip_content_wysiwyg</field>
+			   <field type="Image Cascading: URL" editor_type="LINK" key_of="image_link">url</field>
+			   <field type="Image Cascading: Popup Content URL" editor_type="LINK" key_of="popup_content">url</field>
+            </fields-in-item>
+        </widget>
+		<widget name="tp-chart">
+			<conditions>
+				<condition key="widgetType">tp-chart</condition>
+			</conditions>
+			<fields>
+				<field type="Chart: label Values" editor_type="AREA">main_label</field>
+				<field type=": Data" editor_type="AREA">alone_data</field>
+			</fields>
+			 <fields-in-item items_of="chart_content">
+				<field type="Chart: Label" editor_type="LINE">loop_label</field>
+				<field type="Chart: Data" editor_type="AREA">loop_data</field>
+            </fields-in-item>
+			<fields-in-item items_of="doughnut_chart_datasets">
+				<field type="Chart: Doughnut Label" editor_type="LINE">doughnut_loop_label</field>
+				<field type="Chart: Doughnut Data" editor_type="AREA">doughnut_loop_data</field>
+            </fields-in-item>
+			<fields-in-item items_of="bubble_content">
+				<field type="Chart: Bubble Label" editor_type="LINE">loop_label</field>
+				<field type="Chart: Bubble Data" editor_type="AREA">bubble_data</field>
+            </fields-in-item>
+		</widget>
+		<widget name="tp-circle-menu">
+            <conditions>
+                <condition key="widgetType">tp-circle-menu</condition>
+            </conditions>
+            <fields-in-item items_of="circle_menu_list">
+               <field type="Circle Menu: Tooltip Title" editor_type="LINE">tooltip_menu_title</field>
+			   <field type="Circle Menu: URL" editor_type="LINK" key_of="icons_url">url</field>
+			   <field type="Circle Menu: Email" editor_type="LINE">email</field>
+			   <field type="Circle Menu: Phone" editor_type="LINE">phone</field>
+            </fields-in-item>
+        </widget>
+		<widget name="tp-clients-listout">
+			<conditions>
+				<condition key="widgetType">tp-clients-listout</condition>
+			</conditions>
+			<fields>
+				<field type=": All Filter Category Text" editor_type="LINE">all_filter_category</field>
+				<field type="Clients: Pagination Next" editor_type="LINE">pagination_next</field>
+				<field type="Clients: Pagination Previous" editor_type="LINE">pagination_prev</field>
+				<field type="Clients: Button Text" editor_type="LINE">load_more_btn_text</field>
+				<field type="Clients: Loading Text" editor_type="LINE">tp_loading_text</field>
+				<field type="Clients: All Posts Loaded Text" editor_type="LINE">loaded_posts_text</field>
+			</fields>
+		</widget>
+		<widget name="tp-countdown">
+            <conditions>
+                <condition key="widgetType">tp-countdown</condition>
+            </conditions>
+			<fields>                
+                <field type="Countdown : Days" editor_type="LINE">text_days</field>
+                <field type="Countdown : Hours" editor_type="LINE">text_hours</field>
+                <field type="Countdown : Minutes" editor_type="LINE">text_minutes</field>
+                <field type="Countdown : Seconds" editor_type="LINE">text_seconds</field>
+            </fields>
+        </widget>
+		<widget name="tp-coupon-code">
+			<conditions>
+				<condition key="widgetType">tp-coupon-code</condition>
+			</conditions>
+			<fields>
+				<field type="Coupon Code: Title" editor_type="LINE">couponText</field>
+				<field type="Coupon Code: Redirect URL" editor_type="LINK" key_of="redirectLink">url</field>
+				<field type="Coupon Code: Code" editor_type="LINE">couponCode</field>
+				<field type="Coupon Code: Link Masking Text" editor_type="LINE">hideLinkMaskText</field>
+				<field type="Coupon Code: Popup Title" editor_type="LINE">popupTitle</field>
+				<field type="Coupon Code: Popup Description" editor_type="LINE">popupDesc</field>
+				<field type="Coupon Code: Copy Button" editor_type="LINE">copyBtnText</field>
+				<field type="Coupon Code: After Copy" editor_type="LINE">afterCopyText</field>
+				<field type="Coupon Code: Visit Button" editor_type="LINE">visitBtnText</field>
+				<field type="Coupon Code: Content" editor_type="LINE">frontContent</field>
+				<field type="Coupon Code: Back Title" editor_type="LINE">backTitle</field>
+				<field type="Coupon Code: Back backDesc" editor_type="LINE">backDesc</field>
+			</fields>
+			<fields-in-item items_of="LinkMaskList">
+				<field type="Coupon Code: Mask Label" editor_type="LINE">LinkMaskLabel</field>
+               <field type="Coupon Code: Mask URL" editor_type="LINK" key_of="LinkMaskLink">url</field>
+            </fields-in-item>
+		</widget>
+		<widget name="tp-custom-field">
+			<conditions>
+				<condition key="widgetType">tp-custom-field</condition>
+			</conditions>
+			<fields>
+				<field type="TP Custom Field: Static Text" editor_type="LINE">field_link_text</field>
+				<field type="TP Custom Field: Label" editor_type="LINE">field_label</field>
+				<field type="TP Custom Field: Custom URL" editor_type="LINK" key_of="field_link_image">url</field>
+			</fields>
+		</widget>
+		<widget name="tp-dark-mode">
+			<conditions>
+				<condition key="widgetType">tp-dark-mode</condition>
+			</conditions>
+			<fields>
+				<field type="Dark Mode: Switcher Before Text" editor_type="LINE">switcher_before_text</field>
+				<field type="Dark Mode: Switcher After Text" editor_type="LINE">switcher_after_text</field>
+			</fields>
+		</widget>
+		<widget name="tp-dynamic-categories">
+			<conditions>
+				<condition key="widgetType">tp-dynamic-categories</condition>
+			</conditions>
+			<fields>
+				<field type="Dynamic Categories: Terms ID" editor_type="AREA">post_category</field>
+				<field type="Dynamic Categories: Product Count After Text" editor_type="LINE">count_extra_text</field>
+			</fields>
+		</widget>
+		<widget name="tp-dynamic-device">
+			<conditions>
+				<condition key="widgetType">tp-dynamic-device</condition>
+			</conditions>
+			<fields>
+				<field type="Dynamic Device: URL" editor_type="LINK" key_of="device_link">url</field>
+			</fields>
+		</widget>
+		<widget name="tp-dynamic-listing">
+			<conditions>
+				<condition key="widgetType">tp-dynamic-listing</condition>
+			</conditions>
+			<fields>
+				<field type="Dynamic Listing: Button Text" editor_type="LINE">button_text</field>
+				<field type="Dynamic Listing: All Filter Category Text" editor_type="LINE">all_filter_category</field>
+				<field type="Dynamic Listing: Pagination Next" editor_type="LINE">pagination_next</field>
+				<field type="Dynamic Listing: Pagination Previous" editor_type="LINE">pagination_prev</field>
+				<field type="Dynamic Listing: Button Text" editor_type="LINE">load_more_btn_text</field>
+				<field type="Dynamic Listing: Loading Text" editor_type="LINE">tp_loading_text</field>
+				<field type="Dynamic Listing: All Posts Loaded Text" editor_type="LINE">loaded_posts_text</field>
+				<field type="Dynamic Listing: No Posts Message" editor_type="LINE">empty_posts_message</field>
+			</fields>
+		</widget>
+		<widget name="tp-dynamic-smart-showcase">
+			<conditions>
+				<condition key="widgetType">tp-dynamic-smart-showcase</condition>
+			</conditions>
+			<fields>
+				<field type="Dynamic Smart Showcase: Heading" editor_type="LINE">left_side_filter_text</field>				
+				<field type="Dynamic Smart Showcase: News Label" editor_type="LINE">news_label</field>
+				<field type="Dynamic Smart Showcase: URL" editor_type="LINK" key_of="button_link">url</field>
+				<field type="Dynamic Smart Showcase: All Filter Category Text" editor_type="LINE">all_filter_category</field>
+			</fields>
+		</widget>
+		<widget name="tp-flip-box">
+            <conditions>
+                <condition key="widgetType">tp-flip-box</condition>
+            </conditions>
+			<fields>                
+                <field type="Flip Box : Title" editor_type="LINE">title</field>
+				<field type="Flip Box : Content Description" editor_type="VISUAL">content_desc</field>
+				<field type="Flip Box : Button Text" editor_type="LINE">button_text</field>
+				<field type="Flip Box : Button URL" editor_type="LINK" key_of="button_link">url</field>
+            </fields>
+			<fields-in-item items_of="loop_content">
+				<field type="Flip Box: Title" editor_type="LINE">loop_title</field>
+				<field type="Flip Box: Description" editor_type="VISUAL">loop_content_desc</field>
+				<field type="Flip Box: Button Text" editor_type="LINE">loop_button_text</field>
+				<field type="Flip Box: Button URL" editor_type="LINK" key_of="loop_button_link">url</field>
+            </fields-in-item>
+        </widget>
+		<widget name="tp-gallery-listout">
+            <conditions>
+                <condition key="widgetType">tp-gallery-listout</condition>
+            </conditions>
+            <fields-in-item items_of="loop_gallery">
+               <field type="Gallery Listing: Title" editor_type="LINE">loop_title</field>
+			   <field type="Gallery Listing: Caption" editor_type="AREA">loop_content_caption</field>
+			   <field type="Gallery Listing: Category" editor_type="LINE">loop_category</field>
+			   <field type="Gallery Listing: URL" editor_type="LINK" key_of="style_4_link">url</field>
+            </fields-in-item>
+			<fields>
+				<field type="Gallery Listing: Button Text" editor_type="LINE">style_4_button_text</field>
+				<field type="Gallery Listing: All Filter Category Text" editor_type="LINE">all_filter_category</field>
+			</fields>
+        </widget>
+		<widget name="tp-google-map">
+            <conditions>
+                <condition key="widgetType">tp-google-map</condition>
+            </conditions>
+            <fields-in-item items_of="map_locations">
+               <field type="Google Map: Latitude Value" editor_type="LINE">latitude</field>
+			   <field type="Google Map: Longitude Value" editor_type="LINE">longitude</field>
+			   <field type="Google Map: Address text for Tooltip" editor_type="VISUAL">address</field>
+            </fields-in-item>
+			<fields>
+				<field type="Google Map: Title" editor_type="LINE">title_text</field>
+				<field type="Google Map: Description" editor_type="AREA">overlay_content</field>
+			</fields>
+        </widget>
+		<widget name="tp-header-extras">
+			<conditions>
+				<condition key="widgetType">tp-header-extras</condition>
+			</conditions>
+			<fields>
+				<field type="Header Meta Content: Search Placeholder Text" editor_type="LINE">search_placeholder_text</field>
+				<field type="Header Meta Content: Mini Cart Offer Text" editor_type="LINE">cart_offer_text</field>
+				<field type="Header Meta Content: Before Text" editor_type="LINE">before_language_text</field>
+				<field type="Header Meta Content: After Text" editor_type="LINE">after_language_text</field>
+				<field type="Header Meta Content: Audio .Mp3/.Ogg" editor_type="LINK" key_of="music_audio_file">url</field>
+				<field type="Header Meta Content: Button Text" editor_type="LINE">button_1_text</field>
+				<field type="Header Meta Content: Button URL" editor_type="LINK" key_of="button_1_link">url</field>
+				<field type=": Button 2 Text" editor_type="LINE">button_2_text</field>
+				<field type="Header Meta Content: Button 2 URL" editor_type="LINK" key_of="button_2_link">url</field>
+			</fields>
+		</widget>
+		<widget name="tp-header-extras">
+            <conditions>
+                <condition key="widgetType">tp-header-extras</condition>
+            </conditions>
+			<fields>                
+                <field type="TP Search Placeholder Text" editor_type="LINE">search_placeholder_text</field>
+				<field type="TP Mini Cart Offer Text" editor_type="LINE">cart_offer_text</field>
+            </fields>
+        </widget>
+		<widget name="tp-heading-animation">
+            <conditions>
+                <condition key="widgetType">tp-heading-animation</condition>
+            </conditions>
+			<fields>                
+                <field type="Heading Animation : Prefix" editor_type="LINE">prefix</field>
+				<field type="Heading Animation : Animated Text" editor_type="AREA">ani_title</field>
+				<field type="Heading Animation : Postfix" editor_type="LINE">postfix</field>
+            </fields>
+        </widget>		 
+		<widget name="tp-heading-title">
+            <conditions>
+                <condition key="widgetType">tp-heading-title</condition>
+            </conditions>
+			<fields>                
+                <field type="Heading: Title" editor_type="LINE">title</field>
+				<field type="Heading: Sub Title" editor_type="LINE">sub_title</field>
+				<field type="Heading: Extra Title" editor_type="LINE">title_s</field>
+				<field type="Heading: URL" editor_type="LINK" key_of="title_link">url</field>
+            </fields>
+        </widget>
+		<widget name="tp-hotspot">
+            <conditions>
+                <condition key="widgetType">tp-hotspot</condition>
+            </conditions>
+            <fields-in-item items_of="pin_hotspot">
+               <field type="Hotspot: Pin Text" editor_type="LINE">pin_text</field>
+			   <field type="Hotspot: Tooltip Description" editor_type="AREA">plus_tooltip_content_desc</field>
+			   <field type="Hotspot: Tooltip Content" editor_type="VISUAL">plus_tooltip_content_wysiwyg</field>
+			   <field type="Hotspot: URL" editor_type="LINK" key_of="hs_link">url</field>
+            </fields-in-item>
+        </widget>
+		<widget name="tp-hovercard">
+            <conditions>
+                <condition key="widgetType">tp-hovercard</condition>
+            </conditions>
+			<fields-in-item items_of="hover_card_content">
+                <field type="Hover Card : Text" editor_type="LINE">text_content</field>
+				<field type="Hover Card : Custom Style" editor_type="AREA">style_content</field>
+				<field type="Hover Card : Custom Script" editor_type="AREA">script_content</field>
+				<field type="Hover Card : HTML Content" editor_type="AREA">html_content</field>
+				<field type="Hover Card : Link" editor_type="LINK" key_of="a_link">url</field>
+            </fields-in-item>
+        </widget>
+		<widget name="tp-image-factory">
+			<conditions>
+				<condition key="widgetType">tp-image-factory</condition>
+			</conditions>
+			<fields>
+				<field type="Creative Image: URL" editor_type="LINK" key_of="link">url</field>
+				<field type="Creative Image: Description" editor_type="AREA">plus_tooltip_content_desc</field>
+				<field type="Creative Image: Tooltip Content" editor_type="VISUAL">plus_tooltip_content_wysiwyg</field>
+			</fields>
+		</widget>
+		<widget name="tp-info-box">
+            <conditions>
+                <condition key="widgetType">tp-info-box</condition>
+            </conditions>
+			<fields-in-item items_of="loop_content">
+               <field type="Info Box: Title" editor_type="LINE">loop_title</field>			   
+			   <field type="Info Box: Description" editor_type="VISUAL">loop_content_desc</field>
+			   <field type="Info Box: URL" editor_type="LINK" key_of="loop_url_link">url</field>
+			   <field type="Info Box: Lottie URL" editor_type="LINK" key_of="lottieUrl">url</field>
+			   <field type="Info Box: Button Text" editor_type="LINE">loop_button_text</field>
+			   <field type="Info Box: URL" editor_type="LINK" key_of="loop_button_link">url</field>
+			   <field type="Info Box: Full Box URL" editor_type="LINK" key_of="r_full_infobox_link">url</field>
+            </fields-in-item>
+			<fields>                
+                <field type="Info Box: Title" editor_type="LINE">title</field>
+				<field type="Info Box: Button Text" editor_type="LINE">button_text</field>
+				<field type="Info Box: Description" editor_type="VISUAL">content_desc</field>
+				<field type="Info Box: Link" editor_type="LINK" key_of="url_link">url</field>
+				<field type="Info Box: Lottie Link" editor_type="LINK" key_of="lottieUrl">url</field>
+				<field type="Info Box: Button Link" editor_type="LINK" key_of="button_link">url</field>
+				<field type="Info Box: Pin Text" editor_type="LINE">pin_text_title</field>
+				<field type="Info Box: Full Box Link" editor_type="LINK" key_of="full_infobox_link">url</field>
+            </fields>
+        </widget>
+		<widget name="tp-mailchimp-subscribe">
+			<conditions>
+				<condition key="widgetType">tp-mailchimp-subscribe</condition>
+			</conditions>
+			<fields>
+				<field type="Mailchimp: First Name" editor_type="LINE">name_field_placeholder</field>
+				<field type="Mailchimp: Last Name" editor_type="LINE">last_name_field_placeholder</field>
+				<field type="Mailchimp: Month" editor_type="LINE">bith_field_placeholder_month</field>
+				<field type="Mailchimp: Day" editor_type="LINE">bith_field_placeholder_day</field>
+				<field type="Mailchimp: Phone" editor_type="LINE">phone_field_placeholder</field>
+				<field type="Mailchimp: Email Field Placeholder" editor_type="LINE">email_field_placeholder</field>
+				<field type="Mailchimp: Button Text" editor_type="LINE">button_text</field>
+				<field type="Mailchimp: Redirect URL" editor_type="LINK" key_of="redirect_thankyou">url</field>
+				<field type="Mailchimp: Loading Subscribe Message" editor_type="LINE">loading_suscribe_msg</field>
+				<field type="Mailchimp: Incorrect Email Id" editor_type="LINE">incorrect_msg</field>
+				<field type="Mailchimp: Success Message" editor_type="LINE">correct_msg</field>
+				<field type="Mailchimp: Double Opt In Message" editor_type="LINE">double_opt_in_msg</field>
+			</fields>
+		</widget>
+		<widget name="tp-messagebox">
+            <conditions>
+                <condition key="widgetType">tp-messagebox</condition>
+            </conditions>
+			<fields>                
+                <field type="Messagebox : Title" editor_type="LINE">Title</field>
+				<field type="Messagebox : Description" editor_type="VISUAL">descText</field>
+            </fields>
+        </widget>
+		<widget name="tp-mobile-menu">
+			<conditions>
+				<condition key="widgetType">tp-mobile-menu</condition>
+			</conditions>
+			<fields>
+				<field type="Mobile Menu: Extra Toggle Text" editor_type="LINE">mm_extra_toggle_text</field>
+				<field type="Mobile Menu: Extra Toggle URL" editor_type="LINK" key_of="mm_extra_toggle_link">url</field>
+			</fields>
+			 <fields-in-item items_of="mm_st1_content">
+				<field type="Mobile Menu: Menu 1 Text" editor_type="LINE">mm_st1_text</field>
+				<field type="Mobile Menu: Menu 1 URL" editor_type="LINK" key_of="mm_st1_link">url</field>
+				<field type="Mobile Menu: Menu 1 Pin Text" editor_type="LINE">mm_st1_pin_text</field>
+            </fields-in-item>
+			 <fields-in-item items_of="mm_st2_content_r">
+				<field type="Mobile Menu: Menu 2 Text" editor_type="LINE">mm_st2_text_r</field>
+				<field type="Mobile Menu: Menu 2 URL" editor_type="LINK" key_of="mm_st2_link_r">url</field>
+				<field type="Mobile Menu: Menu 2 Pin Text" editor_type="LINE">mm_st2_pin_text_r</field>
+            </fields-in-item>
+		</widget>
+		<widget name="tp-mouse-cursor">
+			<conditions>
+				<condition key="widgetType">tp-mouse-cursor</condition>
+			</conditions>
+			<fields>
+				<field type="Mouse Cursor: Follow Text" editor_type="LINE">mc_pointer_text</field>
+				<field type="Mouse Cursor: Click Follow Text" editor_type="LINE">mc_pointer_click_text</field>
+			</fields>
+		</widget>
+		<widget name="tp-navigation-menu">
+			<conditions>
+				<condition key="widgetType">tp-navigation-menu</condition>
+			</conditions>
+			<fields>
+				<field type="Navigation Menu: Title" editor_type="LINE">vertical_side_title_text</field>
+				<field type="Navigation Menu: Title URL" editor_type="LINK" key_of="vertical_side_title_link">url</field>
+			</fields>
+		</widget>
+		<widget name="tp-number-counter">
+            <conditions>
+                <condition key="widgetType">tp-number-counter</condition>
+            </conditions>
+			<fields>                
+                <field type="Number Counter : title" editor_type="LINE">title</field>
+				<field type="Number Counter : symbol" editor_type="LINE">symbol</field>
+				<field type="Number Counter : URL" editor_type="LINK" key_of="url_link">url</field>
+            </fields>
+        </widget>
+		<widget name="tp-off-canvas">
+			<conditions>
+				<condition key="widgetType">tp-off-canvas</condition>
+			</conditions>
+			<fields>
+				<field type="Popup Builder: Content" editor_type="VISUAL">content_description</field>
+				<field type="Popup Builder: Elementor Template Shortcode" editor_type="AREA">content_template_id</field>
+				<field type="Popup Builder: Button Text" editor_type="LINE">button_text</field>
+				<field type="Popup Builder: Source URL" editor_type="LINK" key_of="previousUrl">url</field>
+			</fields>
+		</widget>
+		<widget name="tp-page-scroll">
+            <conditions>
+                <condition key="widgetType">tp-page-scroll</condition>
+            </conditions>
+			<fields>                
+                <field type="Page Scroll(FP) : Dots Tooltips Text" editor_type="LINE">nav_dots_tooltips</field>
+                <field type="Page Scroll(MS) : Dots Tooltips Text" editor_type="LINE">multi_dots_tooltips</field>
+                <field type="Page Scroll : Next Button Text" editor_type="LINE">nxt_txt</field>
+                <field type="Page Scroll : Previous Button Text" editor_type="LINE">prev_txt</field>
+            </fields>
+        </widget>
+		<widget name="tp-post-author">
+            <conditions>
+                <condition key="widgetType">tp-post-author</condition>
+            </conditions>
+			<fields>                
+                <field type="Post Author : Label" editor_type="LINE">roleLabel</field>
+            </fields>
+        </widget>
+		<widget name="tp-post-meta">
+            <conditions>
+                <condition key="widgetType">tp-post-meta</condition>
+            </conditions>
+			<fields>                
+                <field type="Post Meta: Separator" editor_type="LINE">separator</field>
+                <field type="Post Meta: Date Prefix" editor_type="LINE">datePrefix</field>
+				<field type="Post Meta: Post Taxonomies Prefix" editor_type="LINE">catePrefix</field>
+				<field type="Post Meta: Author Prefix" editor_type="LINE">authorPrefix</field>
+				<field type="Post Meta: Comment Prefix" editor_type="LINE">commentPrefix</field>
+            </fields>
+        </widget>
+		<widget name="tp-post-navigation">
+			<conditions>
+				<condition key="widgetType">tp-post-navigation</condition>
+			</conditions>
+			<fields>
+				<field type="Post Prev/Next: Previous Post" editor_type="LINE">prevText</field>
+				<field type="Post Prev/Next: Next Post" editor_type="LINE">nextText</field>
+			</fields>
+		</widget>
+		<widget name="tp-post-search">
+            <conditions>
+                <condition key="widgetType">tp-post-search</condition>
+            </conditions>
+			<fields>                
+                <field type="Post Search: Search Field Placeholder" editor_type="LINE">search_field_placeholder</field>
+				<field type="Post Search: Button Text" editor_type="LINE">button_text</field>
+            </fields>
+        </widget>
+		<widget name="tp-post-title">
+            <conditions>
+                <condition key="widgetType">tp-post-title</condition>
+            </conditions>
+			<fields>                
+                <field type="Post Title: Prefix" editor_type="LINE">titleprefix</field>
+				<field type="Post Title: Postfix" editor_type="LINE">titlepostfix</field>
+            </fields>
+        </widget>
+		<widget name="tp-pre-loader">
+			<conditions>
+				<condition key="widgetType">tp-pre-loader</condition>
+			</conditions>
+			 <fields-in-item items_of="preLoaderContent">
+				<field type="Pre Loader: Prefix" editor_type="LINE">plcper3prefix</field>
+				<field type="Pre Loader: Postfix" editor_type="LINE">plcper3postfix</field>
+				<field type="Pre Loader: Content" editor_type="LINE">plcsText</field>
+				<field type="Pre Loader: Lottie URL" editor_type="LINK" key_of="plcsLottieUrl">url</field>
+				<field type="Pre Loader: Code" editor_type="AREA">plcsCustomCode</field>
+				<field type="Pre Loader: Shortcode" editor_type="AREA">plcsCustomShortCode</field>
+            </fields-in-item>
+		</widget>
+		<widget name="tp-pricing-list">
+			<conditions>
+				<condition key="widgetType">tp-pricing-list</condition>
+			</conditions>
+			<fields>
+				<field type="Pricing List: Title" editor_type="LINE">title</field>
+				<field type="Pricing List: Tag" editor_type="AREA">title_tag</field>
+				<field type="Pricing List: Price" editor_type="LINE">price</field>
+				<field type="Pricing List: Description" editor_type="VISUAL">content</field>
+			</fields>
+		</widget>
+		<widget name="tp-pricing-table">
+            <conditions>
+                <condition key="widgetType">tp-pricing-table</condition>
+            </conditions>
+			<fields>                
+                <field type="Pricing Table: Title" editor_type="LINE">pricing_title</field>
+                <field type="Pricing Table: Sub Title" editor_type="LINE">pricing_subtitle</field>
+                <field type="Pricing Table: Price" editor_type="LINE">price</field>
+				<field type="Pricing Table: Price Prefix" editor_type="LINE">price_prefix</field>
+				<field type="Pricing Table: Price Postfix" editor_type="LINE">price_postfix</field>
+				<field type="Pricing Table: Previous Price Prefix" editor_type="LINE">previous_price_prefix</field>
+				<field type="Pricing Table: Previous Price" editor_type="LINE">previous_price</field>
+				<field type="Pricing Table: Previous Price Postfix" editor_type="LINE">previous_price_postfix</field>
+				<field type="Pricing Table: Button" editor_type="LINE">button_text</field>
+				<field type="Pricing Table: Button URL" editor_type="LINK" key_of="button_link">url</field>
+				<field type="Pricing Table: Content" editor_type="VISUAL">content_wysiwyg</field>
+				<field type="Pricing Table: Expand Section Title" editor_type="LINE">list_style_show_option</field>
+				<field type="Pricing Table: Shrink Section Title" editor_type="LINE">list_style_less_option</field>
+				<field type="Pricing Table: Call To Action(CTA) Text" editor_type="VISUAL">call_to_action_text</field>
+				<field type="Pricing Table: Ribbon/Pin Text" editor_type="VISUAL">ribbon_pin_text</field>
+            </fields>
+			<fields-in-item items_of="icon_list">
+                <field type="Pricing Table: Content" editor_type="VISUAL">list_description</field>
+				<field type="Pricing Table: Tooltip Description" editor_type="AREA">tooltip_content_desc</field>
+                <field type="Pricing Table: Tooltip Description" editor_type="VISUAL">tooltip_content_wysiwyg</field>
+            </fields-in-item>
+        </widget>
+		<widget name="tp-process-steps">
+            <conditions>
+                <condition key="widgetType">tp-process-steps</condition>
+            </conditions>
+            <fields-in-item items_of="loop_content">
+               <field type="Process/Steps: Title" editor_type="LINE">loop_title</field>
+			   <field type="Process/Steps: Description" editor_type="VISUAL">loop_content_desc</field>
+			   <field type="Process/Steps: Text" editor_type="LINE">loop_select_text</field>
+			   <field type="Process/Steps: URL" editor_type="LINK" key_of="loop_url_link">url</field>
+			   <field type="Process/Steps: Custom Text" editor_type="LINE">dis_counter_custom_text</field>
+            </fields-in-item>
+        </widget>
+		<widget name="tp-product-listout">
+			<conditions>
+				<condition key="widgetType">tp-product-listout</condition>
+			</conditions>
+			<fields>
+				<field type="Woo Product Listing: Add to Cart Text" editor_type="LINE">dcb_single_product</field>
+				<field type="Woo Product Listing: Select Options Text" editor_type="LINE">dcb_variation_product</field>
+				<field type="Woo Product Listing: All Filter Category Text" editor_type="LINE">all_filter_category</field>
+				<field type="Woo Product Listing: Pagination Next" editor_type="LINE">pagination_next</field>
+				<field type="Woo Product Listing: Pagination Previous" editor_type="LINE">pagination_prev</field>
+				<field type="Woo Product Listing: Button Text" editor_type="LINE">load_more_btn_text</field>
+				<field type="Woo Product Listing: Loading Text" editor_type="LINE">tp_loading_text</field>
+				<field type="Woo Product Listing: All Posts Loaded Text" editor_type="LINE">loaded_posts_text</field>
+				<field type="Woo Product Listing: No Posts Message" editor_type="AREA">empty_posts_message</field>
+				<field type="Woo Product Listing: Out of Stock Text" editor_type="LINE">out_of_stock</field>								
+			</fields>
+		</widget>
+		<widget name="tp-progress-bar">
+            <conditions>
+                <condition key="widgetType">tp-progress-bar</condition>
+            </conditions>
+			<fields>                
+                <field type="Progress Bar: Title" editor_type="LINE">title</field>
+				<field type="Progress Bar: Sub Title" editor_type="LINE">sub_title</field>
+				<field type="Progress Bar: number" editor_type="LINE">number</field>
+				<field type="Progress Bar: Symbol" editor_type="LINE">symbol</field>
+            </fields>
+        </widget>
+		<widget name="tp-protected-content">
+			<conditions>
+				<condition key="widgetType">tp-protected-content</condition>
+			</conditions>
+			<fields>
+				<field type="Protected Content: Content" editor_type="VISUAL">protected_content_field</field>
+				<field type="Protected Content: Set Password" editor_type="LINE">protection_password</field>
+				<field type="Protected Content: Text" editor_type="VISUAL">pc_message_text</field>
+				<field type="Protected Content: Input text" editor_type="LINE">form_input_text</field>
+				<field type="Protected Content: Button text" editor_type="LINE">form_button_text</field>
+				<field type="Protected Content: Error Message" editor_type="AREA">error_message_text</field>
+			</fields>
+			<fields-in-item items_of="protection_password_list">
+				<field type=": Set Password" editor_type="LINE">protection_password_multi</field>
+            </fields-in-item>
+		</widget>
+		<widget name="tp-scroll-navigation">
+            <conditions>
+                <condition key="widgetType">tp-scroll-navigation</condition>
+            </conditions>
+            <fields-in-item items_of="scroll_navigation_menu_list">
+                <field type="Scroll Navigation: Tooltip Title" editor_type="LINE">tooltip_menu_title</field>
+            </fields-in-item>
+        </widget>
+		<widget name="tp-search-bar">
+            <conditions>
+                <condition key="widgetType">tp-search-bar</condition>
+            </conditions>
+			<fields>
+				<field type="WP Search Bar: Label" editor_type="LINE">searchLabel</field>
+				<field type="WP Search Bar: Placeholder" editor_type="LINE">placeholder</field>
+				<field type="WP Search Bar: Total Result Text" editor_type="LINE">totalresulttxt</field>
+				<field type="WP Search Bar: Display Dots" editor_type="LINE">TextDots</field>
+				<field type="WP Search Bar: Display Dots" editor_type="LINE">ContentDots</field>
+				<field type="WP Search Bar: Next text" editor_type="LINE">nexttxt</field>
+				<field type="WP Search Bar: Previous text" editor_type="LINE">prevtxt</field>
+				<field type="WP Search Bar: Button Text" editor_type="LINE">load_more_btn_text</field>
+				<field type="WP Search Bar: Loading Text" editor_type="LINE">tp_loading_text</field>
+				<field type="WP Search Bar: All Posts Loaded Text" editor_type="LINE">loaded_posts_text</field>
+				<field type="WP Search Bar: Counter Text" editor_type="LINE">loadPagetxt</field>
+				<field type="WP Search Bar: Enter Suggestions Word" editor_type="AREA">suggesttxt</field>
+				<field type="WP Search Bar: Button Text" editor_type="LINE">BtnText</field>
+				<field type="WP Search Bar: Post Not Found Message" editor_type="AREA">errormsg</field>
+			</fields>
+            <fields-in-item items_of="searchField">
+				<field type="WP Search Bar: Label" editor_type="LINE">fieldLabel</field>
+				<field type="WP Search Bar: Placeholder" editor_type="LINE">DefText</field>
+            </fields-in-item>
+        </widget>
+		<widget name="tp-search-filter">
+			<conditions>
+				<condition key="widgetType">tp-search-filter</condition>
+			</conditions>
+			<fields>
+				<field type="WP Filters: Show More" editor_type="LINE">TogBtnTitle</field>
+				<field type="WP Filters: Show Less" editor_type="LINE">TogBtnTitleLess</field>
+				<field type="WP Filters: Button Text" editor_type="LINE">Ajaxbtntxt</field>
+				<field type="WP Filters: loading Text" editor_type="LINE">AjaxLoadbtntxt</field>
+				<field type="WP Filters: Post Not Found Massage" editor_type="AREA">ErrorMsg</field>
+			</fields>
+			<fields-in-item items_of="searchField">
+				<field type="WP Filters: Placeholder" editor_type="LINE">placeholder</field>
+				<field type="WP Filters: First Lable" editor_type="LINE">lableOne_date</field>
+				<field type="WP Filters: Second Lable" editor_type="LINE">lableTwo_date</field>
+				<field type="WP Filters: Apply Button Text" editor_type="LINE">Applybtntxt</field>
+				<field type="WP Filters: Cancel Button Text" editor_type="LINE">Cancelbtntxt</field>
+				<field type="WP Filters: Custom label Text" editor_type="LINE">Customlabletxt</field>
+				<field type="WP Filters: Days Of Week" editor_type="AREA">daysOfWeek</field>
+				<field type="WP Filters: Month Name" editor_type="AREA">monthNames</field>
+				<field type="WP Filters: Min Year" editor_type="LINE">Min_DateYear</field>
+				<field type="WP Filters: Max Year" editor_type="LINE">Max_DateYear</field>
+				<field type="WP Filters: Default Title" editor_type="LINE">DDtitle</field>
+				<field type="WP Filters: ShowMore Text" editor_type="LINE">showmoretxt</field>
+				<field type="WP Filters: ShowLess Text" editor_type="LINE">showlesstxt</field>
+				<field type="WP Filters: Total Results Text" editor_type="AREA">FTR_txt</field>
+				<field type="WP Filters: Title Text" editor_type="LINE">fieldTitle</field>
+            </fields-in-item>
+		</widget>
+		<widget name="tp-shape-divider">
+			<conditions>
+				<condition key="widgetType">tp-shape-divider</condition>
+			</conditions>
+			<fields>
+				<field type="Advanced Separators: URL" editor_type="LINK" key_of="shape_1_url">url</field>
+			</fields>
+		</widget>
+		<widget name="tp-site-logo">
+			<conditions>
+				<condition key="widgetType">tp-site-logo</condition>
+			</conditions>
+			<fields>
+				<field type="Site Logo: URL" editor_type="LINK" key_of="logo_url">url</field>
+			</fields>
+		</widget>
+		<widget name="tp-social-embed">
+			<conditions>
+				<condition key="widgetType">tp-social-embed</condition>
+			</conditions>
+			<fields>
+				<field type="Social Embed: URL" editor_type="LINK" key_of="CommentAddURL">url</field>
+				<field type="Social Embed: Tweet Text" editor_type="LINE">TwTextBtn</field>
+				<field type="Social Embed: Message Text" editor_type="AREA">TwMessage</field>
+				<field type="Social Embed: Button Text" editor_type="LINE">likeBtn</field>
+				<field type="Social Embed: Reply Button Text" editor_type="LINE">ReplyBtn</field>
+				<field type="Social Embed: Retweet Button Text" editor_type="LINE">RetweetBtn</field>
+				<field type="Social Embed: Loading Message" editor_type="LINE">TwMsg</field>
+				<field type="Social Embed: Language" editor_type="LINE">Ytlanguage</field>
+			</fields>
+			<fields-in-item items_of="TwRepeater">
+				<field type="Social Embed: Loading Message" editor_type="LINE">TwMassage</field>
+            </fields-in-item>
+		</widget>
+		<widget name="tp-social-feed">
+			<conditions>
+				<condition key="widgetType">tp-social-feed</condition>
+			</conditions>
+			<fields>
+				<field type="Social Feed: All Filter Category Text" editor_type="LINE">all_filter_category</field>
+				<field type="Social Feed: Button Text" editor_type="LINE">load_more_btn_text</field>
+				<field type="Social Feed: Loading Text" editor_type="LINE">tp_loading_text</field>
+				<field type="Social Feed: All Posts Loaded Text" editor_type="LINE">loaded_posts_text</field>
+				<field type="Social Feed: More Text" editor_type="LINE">TextMore</field>
+			</fields>
+		</widget>
+		<widget name="tp-social-icon">
+            <conditions>
+                <condition key="widgetType">tp-social-icon</condition>
+            </conditions>			           
+             <fields-in-item items_of="pt_plus_social_networks">
+                <field type="Social Icon: Title" editor_type="LINE">social_text</field>
+                <field type="Social Icon: URL" editor_type="LINK" key_of="social_url">url</field>
+				<field type="Social Icon: Tooltip Description" editor_type="AREA">plus_tooltip_content_desc</field>
+				<field type="Social Icon: Tooltip Content" editor_type="VISUAL">plus_tooltip_content_wysiwyg</field>
+            </fields-in-item>
+        </widget>
+		<widget name="tp-social-reviews">
+			<conditions>
+				<condition key="widgetType">tp-social-reviews</condition>
+			</conditions>
+			<fields>
+				<field type="Social Reviews: Facebook Review" editor_type="LINE">BTypeFacebook</field>
+				<field type="Social Reviews: Google Review" editor_type="LINE">BTypeGoogle</field>
+				<field type="Social Reviews: Postfix Content" editor_type="LINE">Btxt1</field>
+				<field type="Social Reviews: Prefix Content" editor_type="LINE">Btxt2</field>
+				<field type="Social Reviews: Prefix Content Text" editor_type="LINE">Blinktxt</field>
+				<field type="Social Reviews: First Button" editor_type="LINE">BBtnName</field>
+				<field type="Social Reviews: Second Button" editor_type="LINE">BBtnTName</field>
+				<field type="Social Reviews: All Filter Category Text" editor_type="LINE">all_filter_category</field>
+				<field type="Social Reviews: Button Text" editor_type="LINE">load_more_btn_text</field>
+				<field type="Social Reviews: Loading Text" editor_type="LINE">tp_loading_text</field>
+				<field type="Social Reviews: All Posts Loaded Text" editor_type="LINE">loaded_posts_text</field>
+				<field type="Social Reviews: More Text" editor_type="LINE">TextMore</field>
+				<field type="Social Reviews: Less Text" editor_type="LINE">TextLess</field>
+			</fields>
+			<fields-in-item items_of="Rreviews">
+				<field type="Social Reviews: Username" editor_type="AREA">Cuname</field>
+				<field type="Social Reviews: Review Message" editor_type="AREA">Cmassage</field>
+				<field type="Social Reviews: Platform Name" editor_type="LINE">CcuSname</field>
+				<field type="Social Reviews: Date" editor_type="AREA">Cdate</field>
+				<field type="Social Reviews: Category (For Filter)" editor_type="LINE">RCategory</field>
+            </fields-in-item>
+		</widget>
+		<widget name="tp-social-sharing">
+			<conditions>
+				<condition key="widgetType">tp-social-sharing</condition>
+			</conditions>
+			<fields>
+				<field type="Social Sharing: Total Share" editor_type="LINE">shareNumber</field>
+				<field type="Social Sharing: Share Label" editor_type="LINE">shareLabel</field>
+				<field type="Social Sharing: Text" editor_type="LINE">toggleText</field>
+			</fields>
+			<fields-in-item items_of="socialSharing">
+				<field type="Social Sharing: Title" editor_type="LINE">title</field>
+				<field type="Social Sharing: Count Number" editor_type="LINE">countNumber</field>
+				<field type="Social Sharing: Count Label" editor_type="LINE">countLabel</field>
+				<field type="Social Sharing: Social Button" editor_type="LINE">socialBtn</field>
+				<field type="Social Sharing: URL" editor_type="LINK" key_of="customLink">url</field>
+            </fields-in-item>
+		</widget>
+		 <widget name="tp-style-list">
+            <conditions>
+                <condition key="widgetType">tp-style-list</condition>
+            </conditions>
+            <fields-in-item items_of="icon_list">
+				<field type="Style Lists: Description" editor_type="VISUAL">content_description</field>
+				<field type="Style Lists: URL" editor_type="LINK" key_of="link">url</field>
+				<field type="Style Lists: Hint Text" editor_type="LINE">hint_text</field>
+				<field type="Style Lists: Tooltip Description" editor_type="AREA">tooltip_content_desc</field>
+				<field type="Style Lists: Tooltip Content" editor_type="VISUAL">tooltip_content_wysiwyg</field>
+            </fields-in-item>
+			<fields>
+				<field type="Style Lists: Expand Section Title" editor_type="LINE">read_show_option</field>
+				<field type="Style Lists: Shrink Section Title" editor_type="LINE">read_less_option</field>
+			</fields>
+        </widget>
+		<widget name="tp-switcher">
+			<conditions>
+				<condition key="widgetType">tp-switcher</condition>
+			</conditions>
+			<fields>
+				<field type="Switcher: Switch A Title" editor_type="LINE">switch_a_title</field>
+				<field type="Switcher: Switch A Content" editor_type="VISUAL">content_a_desc</field>
+				<field type="Switcher: Switch A Elementor Template Shortcode" editor_type="AREA">content_template_id</field>
+				<field type="Switcher: Switch B Title" editor_type="LINE">switch_b_title</field>
+				<field type="Switcher: Switch B Content" editor_type="VISUAL">content_b_desc</field>
+				<field type="Switcher: Switch B Elementor Template Shortcode" editor_type="AREA">content_b_template_id</field>
+				<field type="Switcher: Tooltip Content 1" editor_type="LINE">tooltip_con_1</field>
+				<field type="Switcher: Tooltip Content 2" editor_type="LINE">tooltip_con_2</field>
+			</fields>
+		</widget>
+		<widget name="tp-syntax-highlighter">
+			<conditions>
+				<condition key="widgetType">tp-syntax-highlighter</condition>
+			</conditions>
+			<fields>
+				<field type="Syntax Highlighter: Language Text" editor_type="LINE">lanugaetext</field>
+				<field type="Syntax Highlighter: Copy Text" editor_type="LINE">cpybtntext</field>
+				<field type="Syntax Highlighter: Copied Text" editor_type="LINE">copiedbtntext</field>
+				<field type="Syntax Highlighter: Copy Error Text" editor_type="LINE">cpyerrbtntext</field>
+				<field type="Syntax Highlighter: Line Highlight" editor_type="LINE">lineHighlight</field>
+				<field type="Syntax Highlighter: Button Text" editor_type="LINE">dwnldBtnText</field>
+				<field type="Syntax Highlighter: URL" editor_type="LINK" key_of="fileLink">url</field>
+			</fields>
+		</widget>
+		<widget name="tp-table">
+			<conditions>
+				<condition key="widgetType">tp-table</condition>
+			</conditions>
+			<fields>
+				<field type="Table: CSV File URL" editor_type="LINK" key_of="File">url</field>
+				<field type="Table: Search Field Label" editor_type="LINE">searchable_label</field>
+			</fields>
+			<fields-in-item items_of="table_headings">
+				<field type="Table: Row Desciption" editor_type="LINE">add_head_cell_row_description</field>
+				<field type="Table: Text" editor_type="LINE">heading_text</field>
+				<field type="Table: Tooltip Content" editor_type="AREA">heading_tooltip_content</field>
+            </fields-in-item>
+			<fields-in-item items_of="table_content">
+				<field type="Table: Cell Text" editor_type="AREA">cell_text</field>
+				<field type="Table: Cell URL" editor_type="LINK" key_of="LINK">url</field>
+				<field type="Table: Cell Button Text" editor_type="LINE">cell_button_text</field>
+				<field type="Table: Cell Button URL" editor_type="LINK" key_of="cell_button_link">url</field>
+				<field type="Table: Tooltip Content" editor_type="AREA">body_tooltip_content</field>
+            </fields-in-item>
+		</widget>
+		<widget name="tp-table-content">
+			<conditions>
+				<condition key="widgetType">tp-table-content</condition>
+			</conditions>
+			<fields>
+				<field type="Table Of Content: Title" editor_type="LINE">contentText</field>
+				<field type="Table Of Content: Description" editor_type="VISUAL">TableDescText</field>
+				<field type="Table Of Content: Tag" editor_type="LINE">hashtagtext</field>
+				<field type="Table Of Content: Restricted Container Area" editor_type="LINE">contentSelector</field>
+			</fields>
+		</widget>
+		<widget name="tp-tabs-tours">
+            <conditions>
+                <condition key="widgetType">tp-tabs-tours</condition>
+            </conditions>			          
+            <fields-in-item items_of="tabs">
+                <field type="Tabs/Tours: Title" editor_type="LINE">tab_title</field>
+                <field type="Tabs/Tours: Content" editor_type="VISUAL">tab_content</field>
+				<field type="Tabs/Tours: Templates Shortcode" editor_type="AREA">content_template_id</field>
+				<field type="Tabs/Tours: Description" editor_type="AREA">tab_title_description</field>
+				<field type="Tabs/Tours: Hint" editor_type="LINE">tab_title_hint</field>
+            </fields-in-item>            
+        </widget>
+		<widget name="tp-team-member-listout">
+			<conditions>
+				<condition key="widgetType">tp-team-member-listout</condition>
+			</conditions>
+			<fields>
+				<field type="Team Member Listing: All Filter Category Text" editor_type="LINE">all_filter_category</field>
+			</fields>
+		</widget>
+		<widget name="tp-timeline">
+			<conditions>
+				<condition key="widgetType">tp-timeline</condition>
+			</conditions>
+			<fields>
+				<field type="Timeline: Start Pin Text" editor_type="LINE">start_pin_title</field>
+				<field type="Timeline: End Pin Text" editor_type="LINE">end_pin_title</field>
+				<field type="Timeline: Button Text" editor_type="LINE">button_text</field>
+			</fields>
+			<fields-in-item items_of="content_loop_section">
+				<field type="Timeline: Pin Title" editor_type="LINE">pin_title</field>
+				<field type="Timeline: Title" editor_type="LINE">loop_content_title</field>
+				<field type="Timeline: Description" editor_type="VISUAL">loop_content_desc</field>
+				<field type="Timeline: URL" editor_type="LINK" key_of="loop_link">url</field>
+				<field type="Timeline: Button Text" editor_type="LINE">loop_button_text</field>
+            </fields-in-item>
+		</widget>
+		<widget name="tp-unfold">
+			<conditions>
+				<condition key="widgetType">tp-unfold</condition>
+			</conditions>
+			<fields>
+				<field type="Unfold: Title" editor_type="LINE">content_title</field>
+				<field type="Unfold: Content" editor_type="VISUAL">content_description</field>
+				<field type="Unfold: Expand Button Text" editor_type="LINE">content_readmore</field>
+				<field type="Unfold: Collapse Button Text" editor_type="LINE">content_readless</field>
+				<field type="Unfold: Extra Button Text" editor_type="LINE">eb_text</field>
+				<field type="Unfold: Extra Button URL" editor_type="LINK" key_of="eb_link">url</field>
+			</fields>
+		</widget>
+		<widget name="tp-video-player">
+            <conditions>
+                <condition key="widgetType">tp-video-player</condition>
+            </conditions>
+			<fields>                
+               	<field type="Video-TP: Youtube id" editor_type="LINE">youtube_id</field>
+         		<field type="Video-TP: Vimeo id" editor_type="LINE">vimeo_id</field>
+                <field type="Video: Title" editor_type="LINE">video_title</field>
+				<field type="Video: Description" editor_type="AREA">video_desc</field>
+            </fields>
+        </widget>
+		<widget name="tp-woo-cart">
+            <conditions>
+                <condition key="widgetType">tp-woo-cart</condition>
+            </conditions>
+            <fields-in-item items_of="cartSort">
+               <field type="Woo Cart: Checkout Button Text" editor_type="LINE">CheckoutButtonText</field>
+            </fields-in-item>
+			<fields>
+				<field type="Woo Cart: Empty Cart Message" editor_type="AREA">empty_cart_text</field>
+			</fields>
+        </widget>
+		 <widget name="tp-woo-single-basic">
+            <conditions>
+                <condition key="widgetType">tp-woo-single-basic</condition>
+            </conditions>
+            <fields-in-item items_of="loop_content">
+				<field type="Woo Single Basic: Next Text" editor_type="LINE">nxt_text</field>
+				<field type="Woo Single Basic: Previous Text" editor_type="LINE">previous_text</field>
+				<field type="Woo Single Basic: Out of Stock Text" editor_type="LINE">sale_badge_oos_text</field>
+            </fields-in-item>
+        </widget>
+		<widget name="tp-woo-single-pricing">
+            <conditions>
+                <condition key="widgetType">tp-woo-single-pricing</condition>
+            </conditions>
+            <fields-in-item items_of="loop_content">
+				<field type=": Stock Prefix" editor_type="LINE">dis_before</field>
+				<field type=": Stock Postfix" editor_type="LINE">dis_after</field>
+				<field type=": Out of Stock Notice" editor_type="LINE">stockout</field>
+				<field type=": Backorders Allowed Notice" editor_type="LINE">stockbackorderallow</field>
+				<field type=": Price Prefix" editor_type="LINE">dis_before_price</field>
+				<field type=": Price Postfix" editor_type="LINE">dis_after_price</field>
+				<field type=": Sold Prefix" editor_type="LINE">sold_before</field>
+				<field type=": Sold Postfix" editor_type="LINE">sold_after</field>
+				<field type=": Category Prefix" editor_type="LINE">cattext</field>
+				<field type=": Tag Prefix" editor_type="LINE">tagtext</field>
+				<field type=": SKU Prefix" editor_type="LINE">skutext</field>
+            </fields-in-item>
+        </widget>
+		<widget name="tp-woo-thank-you">
+			<conditions>
+				<condition key="widgetType">tp-woo-thank-you</condition>
+			</conditions>
+			<fields>
+				<field type="Woo Thank You: Success Message" editor_type="LINE">tp_thankyou_or_txt</field>
+				<field type="Woo Thank You: Heading" editor_type="LINE">tp_thankyou_order_detail_head</field>
+			</fields>
+		</widget>
+		<widget name="tp-wp-bodymovin">
+			<conditions>
+				<condition key="widgetType">tp-wp-bodymovin</condition>
+			</conditions>
+			<fields>
+				<field type="LottieFiles: JSON URL" editor_type="LINK" key_of="content_parse_json_url">url</field>
+				<field type="LottieFiles: URL" editor_type="LINK" key_of="tp_bm_link_url_dynamic">url</field>
+				<field type="LottieFiles: Heading" editor_type="AREA">tp_bm_head_text</field>
+				<field type="LottieFiles: Description" editor_type="AREA">tp_bm_description_text</field>
+				<field type="LottieFiles: URL" editor_type="LINE">tp_bm_link_url</field>
+			</fields>
+		</widget>
+		<widget name="tp-wp-login-register">
+            <conditions>
+                <condition key="widgetType">tp-wp-login-register</condition>
+            </conditions>
+            <fields-in-item items_of="loop_content">
+				<field type="WP Login and Register: Extra Menu Title" editor_type="LINE">loop_title</field>
+				<field type="WP Login and Register: Extra Menu URL" editor_type="LINK" key_of="loop_url_link">url</field>
+            </fields-in-item>
+			<fields>
+				<field type="WP Login and Register: Login Tab Title" editor_type="LINE">tab_com_login</field>
+				<field type="WP Login and Register: Username" editor_type="LINE">user_label</field>
+				<field type="WP Login and Register: Password" editor_type="LINE">password_label</field>
+				<field type="WP Login and Register: Username" editor_type="LINE">user_placeholder</field>
+				<field type="WP Login and Register: Password" editor_type="LINE">password_placeholder</field>
+				<field type="WP Login and Register: Login Button Text" editor_type="LINE">button_text</field>
+				<field type="WP Login and Register: Remember Me Content" editor_type="LINE">remember_me_text</field>
+				<field type="WP Login and Register: Lost password Content" editor_type="LINE">bottom_lost_pass_text</field>
+				<field type="WP Login and Register: Register Text" editor_type="LINE">bottom_register_text</field>
+				<field type="WP Login and Register: Terms and Conditions" editor_type="LINE">r_terms_conition_label</field>
+				<field type="WP Login and Register: Email Subject" editor_type="LINE">tp_cst_email_subject</field>
+				<field type="WP Login and Register: Register Tab Title" editor_type="LINE">tab_com_signup</field>
+				<field type="WP Login and Register: First Name" editor_type="LINE">first_name_label</field>
+				<field type="WP Login and Register: Last Name" editor_type="LINE">last_name_label</field>
+				<field type="WP Login and Register: User Name" editor_type="LINE">user_name_label</field>
+				<field type="WP Login and Register: Email" editor_type="LINE">email_label</field>
+				<field type="WP Login and Register: Password" editor_type="LINE">r_password_label</field>
+				<field type="WP Login and Register: Confirm Password" editor_type="LINE">r_conf_password_label</field>
+				<field type="WP Login and Register: MailChimp" editor_type="LINE">r_mail_chimp_label</field>
+				<field type="WP Login and Register: First Name" editor_type="LINE">first_name_placeholder</field>
+				<field type="WP Login and Register: Last Name" editor_type="LINE">last_name_placeholder</field>
+				<field type="WP Login and Register: User Name" editor_type="LINE">user_name_placeholder</field>
+				<field type="WP Login and Register: Email" editor_type="LINE">email_placeholder</field>
+				<field type="WP Login and Register: Password" editor_type="LINE">r_password_placeholder</field>
+				<field type="WP Login and Register: Confirm Password" editor_type="LINE">r_conf_password_placeholder</field>
+				<field type="WP Login and Register: Login Text" editor_type="LINE">bottom_login_text</field>
+				<field type="WP Login and Register: Login Before Text" editor_type="LINE">login_before_text</field>
+				<field type="WP Login and Register: Message" editor_type="LINE">additional_message</field>
+				<field type="WP Login and Register: Register Button Text" editor_type="LINE">button_text_reg</field>
+				<field type="WP Login and Register: Button Text" editor_type="LINE">dropdown_button_text</field>
+				<field type="WP Login and Register: Password Strength Label Text" editor_type="LINE">psm_text</field>
+				<field type="WP Login and Register: Reset Password Label" editor_type="LINE">res_pass_label</field>
+				<field type="WP Login and Register: Reset Password Placeholder" editor_type="LINE">res_pass_placeholder</field>
+				<field type="WP Login and Register: Reset Confirm Password Placeholder" editor_type="LINE">res_conf_pass_placeholder</field>
+				<field type="WP Login and Register: Reset Password Button Text" editor_type="LINE">reset_pass_btn</field>
+				<field type="WP Login and Register: Lost Password Username/Email" editor_type="LINE">lost_pass_label</field>
+				<field type="WP Login and Register: Lost Password Placeholder" editor_type="LINE">lost_pass_placeholder</field>
+				<field type="WP Login and Register: Email Reset Link" editor_type="LINE">forgot_pass_btn</field>
+				<field type="WP Login and Register: Email Subject" editor_type="LINE">tp_cst_email_lost_subject</field>
+				<field type="WP Login and Register: Edit Profile" editor_type="LINE">edit_profile_text</field>
+				<field type="WP Login and Register: Logout Title" editor_type="LINE">button_text_logout</field>
+				<field type="WP Login and Register: Loading text" editor_type="LINE">login_msg_loading_txt</field>
+				<field type="WP Login and Register: Success text" editor_type="LINE">login_msg_success</field>
+				<field type="WP Login and Register: Validation text" editor_type="LINE">login_msg_validation</field>
+				<field type="WP Login and Register: Error text" editor_type="LINE">login_msg_error</field>
+				<field type="WP Login and Register: Loading text" editor_type="LINE">reg_msg_loading</field>
+				<field type="WP Login and Register: Success text" editor_type="LINE">reg_msg_success</field>
+				<field type="WP Login and Register: Email Validate" editor_type="LINE">reg_msg_email_duplication</field>
+				<field type="WP Login and Register: Error Text" editor_type="LINE">reg_msg_error</field>
+				<field type="WP Login and Register: Loading text" editor_type="LINE">fp_msg_loading</field>
+				<field type="WP Login and Register: Success text" editor_type="LINE">fp_msg_success</field>
+				<field type="WP Login and Register: Error text" editor_type="LINE">fp_msg_error</field>
+				<field type="WP Login and Register: Invalid First Name" editor_type="LINE">v_efn</field>
+				<field type="WP Login and Register: Invalid Last Name" editor_type="LINE">v_eln</field>
+				<field type="WP Login and Register: User Name" editor_type="LINE">v_eun</field>
+				<field type="WP Login and Register: Email" editor_type="LINE">v_eemail</field>
+				<field type="WP Login and Register: Password" editor_type="LINE">v_epass</field>
+				<field type="WP Login and Register: Confirm Password" editor_type="LINE">v_erepass</field>
+				<field type="WP Login and Register: Register URL" editor_type="LINK" key_of="show_register_opt_link">url</field>
+				<field type="WP Login and Register: Login Redirect URL" editor_type="LINK" key_of="redirect_url">url</field>
+				<field type="WP Login and Register: Register Redirect URL" editor_type="LINK" key_of="redirect_url_reg">url</field>
+				<field type="WP Login and Register: Loing URL" editor_type="LINK" key_of="show_login_opt_link">url</field>
+				<field type="WP Login and Register: Redirect URL" editor_type="LINK" key_of="redirect_url_social">url</field>
+				<field type="WP Login and Register: Email Message" editor_type="VISUAL">tp_cst_email_message</field>
+				<field type="WP Login and Register: Login Heading" editor_type="VISUAL">modal_header_description_log</field>
+				<field type="WP Login and Register: Registration Heading" editor_type="VISUAL">modal_header_description_reg</field>
+				<field type="WP Login and Register: Heading" editor_type="VISUAL">lost_password_heading_desc</field>
+				<field type="WP Login and Register: Email Message" editor_type="VISUAL">tp_cst_email_lost_message</field>
+			</fields>
+        </widget>
+	</elementor-widgets>
+</wpml-config>

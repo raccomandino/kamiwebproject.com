@@ -1,0 +1,257 @@
+/* WP Admin styles for a Better Templates Library - DARK */
+
+:root {
+    --ele-btl-border-color: rgba(255,255,255,0.05);
+    --ele-btl-button-bg-normal: rgba(0,0,0,0.7);
+    --ele-btl-button-bg-hover: rgba(0,0,0,0.9);
+    --ele-btl-button-txt-normal: rgba(255,255,255,0.8);
+    --ele-btl-button-txt-hover: rgba(255,255,255,1);
+    --ele-btl-btl-spinner-color-1: rgba(255,113,113, 0.9);
+    --ele-btl-btl-spinner-color-2: rgba(255,255,255,0.5);
+}
+
+#elementor-template-library-templates-container {
+    flex-wrap: wrap;
+    justify-content: space-between;
+    box-shadow: none !important;
+    margin: -17px;
+}
+
+.elementor-template-library-template.elementor-template-library-template-local {
+    flex-direction: column;
+    height: auto;
+    max-width: calc(50% - 34px);
+    margin: 17px;
+    padding: 17px;
+}
+/**/
+.elementor-template-library-template.elementor-template-library-template-local > .ele-btl-data {
+    width: 100%;
+    padding: 0
+}
+.elementor-template-library-template.elementor-template-library-template-local > .ele-btl-data.ele-flex {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 7px;
+
+    white-space: unset;
+    text-overflow: unset;
+    overflow: inherit;
+}
+.elementor-template-library-template.elementor-template-library-template-local > .ele-btl-data.ele-flex input[type="text"] {
+    border: none;
+    background-color: transparent;
+    padding: 0 0 2px 0;
+}
+
+.elementor-template-library-template.elementor-template-library-template-local .ele-btl-media-wrapper {
+    max-height: 280px;
+    min-height: 279px;
+    width: 100%;
+}
+.elementor-template-library-template.elementor-template-library-template-local .ele-btl-media-wrapper:not(.default) {
+    overflow: auto;
+    position: relative;
+    scrollbar-width: thin;
+}
+.elementor-template-library-template.elementor-template-library-template-local .ele-btl-media-wrapper:not(.default)::-webkit-scrollbar {
+    width: 7px;
+	background-color: var(--ele-btl-button-txt-normal);
+} 
+.elementor-template-library-template.elementor-template-library-template-local .ele-btl-media-wrapper:not(.default)::-webkit-scrollbar-thumb {
+    background-color: var(--ele-btl-button-bg-hover);
+} 
+.elementor-template-library-template.elementor-template-library-template-local .ele-btl-media-wrapper:not(.default)::-webkit-scrollbar-track {
+	background-color: var(--ele-btl-button-txt-normal);
+} 
+
+.elementor-template-library-template.elementor-template-library-template-local .ele-btl-media-wrapper > a {
+    display: block;
+    line-height: 0;
+}
+
+.elementor-template-library-template.elementor-template-library-template-local .ele-btl-media-wrapper img {
+    max-width: 100%;
+    width: 100%; 
+    height: auto; 
+    object-fit: cover;
+}
+
+.elementor-template-library-template.elementor-template-library-template-local .elementor-template-library-template-name {
+    margin: 11px 0 4px;
+    padding: 4px 0;
+    font-size: 14px;
+    font-weight: 400;
+    border-bottom: 1px solid var(--ele-btl-border-color);
+}
+
+.elementor-template-library-template.elementor-template-library-template-local .elementor-template-library-template-meta {
+    border-bottom: 1px solid var(--ele-btl-border-color);
+    padding: 4px 0;
+    margin: 4px 0;
+}
+
+.elementor-template-library-template.elementor-template-library-template-local .elementor-template-library-template-controls {
+    padding-top: 11px;
+    align-items: unset;
+    width: 100%;
+    gap: 11px;
+    justify-content: flex-end;
+}
+
+.elementor-template-library-template.elementor-template-library-template-local span.ele-btl-label, 
+.elementor-template-library-template.elementor-template-library-template-local button.ele-btl-button, 
+.elementor-template-library-template.elementor-template-library-template-local span.elementor-template-library-template-control-title {
+    text-transform: uppercase;
+    font-size: 11px;
+}
+
+.elementor-template-library-template.elementor-template-library-template-local .elementor-template-library-template-more-toggle.ele-btl-toggle {
+    flex: unset;
+}
+
+.elementor-template-library-template.elementor-template-library-template-local .elementor-template-library-template-action {
+    margin: 0;
+}
+/**/
+.elementor-template-library-template.elementor-template-library-template-local button.ele-btl-button, 
+.elementor-template-library-template.elementor-template-library-template-local .elementor-template-library-template-more-toggle.ele-btl-toggle {
+    background-color: var(--ele-btl-button-bg-normal);
+    color: var(--ele-btl-button-txt-normal);
+    border: none;
+    border-radius: 4px;
+    border-radius: 2px;
+    padding: 7px 11px;
+    cursor: pointer;
+}
+.elementor-template-library-template.elementor-template-library-template-local button.ele-btl-button span {
+    text-transform: uppercase;
+}
+
+.elementor-template-library-template.elementor-template-library-template-local button.ele-btl-button:hover {
+    background-color: var(--ele-btl-button-bg-hover);
+    color: var(--ele-btl-button-txt-hover);
+}
+
+.elementor-template-library-template.elementor-template-library-template-local span.elementor-template-library-template-control-title {
+    margin-left: 0;
+}
+
+/* btl-spinner */
+.elementor-template-library-template a[id*="ele-btl-insert-media_"] {
+    display: block; 
+    position: relative;
+}
+.elementor-template-library-template a[id*="ele-btl-insert-media_"] > span {
+    display: block; 
+}
+
+.elementor-template-library-template a[id*="ele-btl-insert-media_"] > span.btl-spinner {
+    position: absolute;
+    top: 0; 
+    left: 0;
+    width: 100%;
+    height: 280px;
+}
+.elementor-template-library-template a[id*="ele-btl-insert-media_"] > span.btl-spinner::after,
+.elementor-template-library-template a[id*="ele-btl-insert-media_"] > span.btl-spinner::before {
+    content: '';  
+    box-sizing: border-box;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    border: 2px solid var(--ele-btl-btl-spinner-color-1);
+    width: 38px;
+    height: 38px;
+    animation: rotationBack 1.5s linear infinite;
+    transform-origin: center center;
+}
+.elementor-template-library-template a[id*="ele-btl-insert-media_"] span.btl-spinner::before {
+    width: 28px;
+    height: 28px;
+    border-color: var(--ele-btl-btl-spinner-color-2);
+    box-sizing: border-box;
+    animation: rotation 1s linear infinite;
+}
+  
+@keyframes rotation {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  } 
+  @keyframes rotationBack {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(-360deg);
+    }
+}
+
+/* tip text */
+.elementor-template-library-template.elementor-template-library-template-local .ele-btl-media-wrapper > em {
+    transition: all 0.3s ease-in-out;
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    right: 28px;
+    top: 28px;
+    border-radius: 2px;
+    background-color: #131A24;
+    background-image: url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='UTF-8'%3F%3E%3Csvg width='25px' height='25px' viewBox='0 0 25 25' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3Ctitle%3Eclose-x%3C/title%3E%3Cg id='Page-1' stroke='none' stroke-width='1' fill='none' fill-rule='evenodd'%3E%3Cg id='close-x' transform='translate(0.557828, 0.442172)' fill='%23E80E51' fill-rule='nonzero'%3E%3Cpolygon id='Rectangle' transform='translate(12.000000, 12.000000) rotate(-45.000000) translate(-12.000000, -12.000000) ' points='-4.18850917 11.2179464 28.1885091 11.2179464 28.1885091 12.7820536 -4.18850918 12.7820536'%3E%3C/polygon%3E%3Cpolygon id='Rectangle-Copy' transform='translate(12.000000, 12.000000) scale(-1, 1) rotate(-45.000000) translate(-12.000000, -12.000000) ' points='-4.18850912 11.2179464 28.1885092 11.2179464 28.1885092 12.7820536 -4.18850912 12.7820536'%3E%3C/polygon%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+    background-size: 13px 13px;
+    background-repeat: no-repeat;
+    background-position: 6px 6px;
+    cursor: pointer;
+    z-index: 369;
+}
+.elementor-template-library-template.elementor-template-library-template-local .ele-btl-media-wrapper > em:hover {
+    background-color: #FFFFFF;
+}
+
+/* toolbar */
+#elementor-template-library-order-toolbar-local {
+    padding: 0;
+}
+  
+#elementor-template-library-order-toolbar-local > div[class*="elementor-template-library-local-column-"] {
+    width: auto; 
+    font-weight: 400; 
+}
+
+#elementor-template-library-order-toolbar-local > div[class*="elementor-template-library-local-column-"] > .elementor-template-library-order-label {
+    font-size: 12px;
+    text-transform: none;
+} 
+
+#elementor-template-library-order-toolbar-local > .elementor-template-library-local-column-5 {
+    order: 1; 
+} 
+#elementor-template-library-order-toolbar-local > .elementor-template-library-local-column-5 > .elementor-template-library-order-label {
+    text-transform: uppercase !important;
+    font-weight: 400;
+    letter-spacing: 1px;
+} 
+#elementor-template-library-order-toolbar-local > .elementor-template-library-local-column-5 > .elementor-template-library-order-label::after {
+    content: ': ';
+} 
+
+#elementor-template-library-order-toolbar-local > .elementor-template-library-local-column-1 {
+    order: 2;
+} 
+#elementor-template-library-order-toolbar-local > .elementor-template-library-local-column-2 {
+    order: 3;
+} 
+#elementor-template-library-order-toolbar-local > .elementor-template-library-local-column-3 {
+    order: 4;
+} 
+#elementor-template-library-order-toolbar-local > .elementor-template-library-local-column-4 {
+    order: 5;
+} 

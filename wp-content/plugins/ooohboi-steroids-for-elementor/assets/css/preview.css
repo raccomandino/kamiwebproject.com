@@ -1,0 +1,66 @@
+/* Elementor preview styles should go here */
+
+/*harakiri color change */
+div[class*="ob-harakiri-vertical"] .elementor-editor-widget-settings .elementor-editor-element-setting {
+	height: 26px;
+	background-color: #ff4ee3;
+}
+
+div[class*="ob-harakiri-vertical"] .elementor-editor-widget-settings .elementor-editor-element-setting:not(:hover) {
+    background-image: -webkit-gradient(linear,left bottom,left top,from(#dd3fcd),to(#ff4ee3));
+    background-image: -webkit-linear-gradient(bottom,#dd3fcd,#ff4ee3);
+    background-image: -o-linear-gradient(bottom,#dd3fcd,#ff4ee3);
+	background-image: linear-gradient(0deg,#dd3fcd,#ff4ee3);
+}
+
+.elementor-edit-area-active div[class*="ob-harakiri-vertical"].elementor-widget.elementor-element-edit-mode:hover, 
+.elementor-edit-area-active div[class*="ob-harakiri-vertical"].elementor-widget.elementor-element-editable {
+	-webkit-box-shadow: 0 0 0 1px #ff4ee3;
+	box-shadow: 0 0 0 1px#ff4ee3;
+}
+
+/* widget stalker color change */
+div[class*="ob-got-stalker"] .elementor-editor-widget-settings .elementor-editor-element-setting {
+	height: 26px;
+	background-color: #4ffd00;
+}
+
+div[class*="ob-got-stalker"] .elementor-editor-widget-settings .elementor-editor-element-setting:not(:hover) {
+    background-image: -webkit-gradient(linear,left bottom,left top,from(#49df04),to(#4ffd00));
+    background-image: -webkit-linear-gradient(bottom,#49df04,#4ffd00);
+    background-image: -o-linear-gradient(bottom,#49df04,#4ffd00);
+	background-image: linear-gradient(0deg,#49df04,#4ffd00);
+}
+
+.elementor-edit-area-active div[class*="ob-got-stalker"].elementor-widget.elementor-element-edit-mode:hover, 
+.elementor-edit-area-active div[class*="ob-got-stalker"].elementor-widget.elementor-element-editable {
+	-webkit-box-shadow: 0 0 0 1px #4ffd00;
+	box-shadow: 0 0 0 1px#4ffd00;
+}
+
+.elementor-edit-area-active .ob-has-background-overlay .elementor-widget-container:before, 
+.elementor-edit-area-active .ob-has-background-overlay .elementor-widget-container:after {
+	z-index: -1;
+}
+/* GLIDER */
+.elementor-edit-area-active .ob-is-glider .elementor-container > .elementor-row.swiper-wrapper, 
+.elementor-edit-area-active .ob-is-glider .elementor-container > .swiper-wrapper {
+	flex-wrap: nowrap !important;
+}
+.elementor-edit-area-active .ob-is-glider .elementor-container > .elementor-row.swiper-wrapper > .elementor-element.elementor-column, 
+.elementor-edit-area-active .ob-is-glider .elementor-container > .swiper-wrapper > .elementor-element.elementor-column {
+	width: 100%;
+}
+.elementor-edit-area-active .ob-is-glider .elementor-container.swiper-container-vertical > .elementor-row.swiper-wrapper > .swiper-slide, 
+.elementor-edit-area-active .ob-is-glider .elementor-container.swiper-container-vertical > .swiper-wrapper > .swiper-slide {
+	width: 100% !important;
+}
+.elementor-edit-area-active .ob-is-glider .swiper-slide a.elementor-button {
+	display: inline-block;
+}
+.elementor-edit-area-active .ob-is-glider .swiper-button-prev, 
+.elementor-edit-area-active .ob-is-glider .swiper-button-next {
+	z-index: 12;
+	background-image: none;
+	transition: all 0.25s ease;
+}

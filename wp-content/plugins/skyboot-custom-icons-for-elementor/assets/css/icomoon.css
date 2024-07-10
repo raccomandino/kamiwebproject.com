@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('https://www.kamiwebproject.com/wp-content/plugins/skyboot-custom-icons-for-elementor/assets/fonts/icomoon.eot?kqgqte');
-  src:  url('https://www.kamiwebproject.com/wp-content/plugins/skyboot-custom-icons-for-elementor/assets/fonts/icomoon.eot?kqgqte#iefix') format('embedded-opentype'),
-    url('https://www.kamiwebproject.com/wp-content/plugins/skyboot-custom-icons-for-elementor/assets/fonts/icomoon.ttf?kqgqte') format('truetype'),
-    url('https://www.kamiwebproject.com/wp-content/plugins/skyboot-custom-icons-for-elementor/assets/fonts/icomoon.woff?kqgqte') format('woff'),
-    url('https://www.kamiwebproject.com/wp-content/plugins/skyboot-custom-icons-for-elementor/assets/fonts/icomoon.svg?kqgqte#icomoon') format('svg');
+  src:  url('../fonts/icomoon.eot?kqgqte');
+  src:  url('../fonts/icomoon.eot?kqgqte#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?kqgqte') format('truetype'),
+    url('../fonts/icomoon.woff?kqgqte') format('woff'),
+    url('../fonts/icomoon.svg?kqgqte#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;

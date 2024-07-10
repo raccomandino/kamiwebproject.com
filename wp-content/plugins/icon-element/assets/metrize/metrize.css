@@ -1,10 +1,10 @@
 @font-face {
 	font-family: 'Metrize-Icons';
-	src:url('https://www.kamiwebproject.com/wp-content/plugins/icon-element/assets/metrize/fonts/Metrize-Icons.eot');
-	src:url('https://www.kamiwebproject.com/wp-content/plugins/icon-element/assets/metrize/fonts/Metrize-Icons.eot#iefix') format('embedded-opentype'),
-		url('https://www.kamiwebproject.com/wp-content/plugins/icon-element/assets/metrize/fonts/Metrize-Icons.woff') format('woff'),
-		url('https://www.kamiwebproject.com/wp-content/plugins/icon-element/assets/metrize/fonts/Metrize-Icons.ttf') format('truetype'),
-		url('https://www.kamiwebproject.com/wp-content/plugins/icon-element/assets/metrize/fonts/Metrize-Icons.svg#Metrize-Icons') format('svg');
+	src:url('fonts/Metrize-Icons.eot');
+	src:url('fonts/Metrize-Icons.eot?#iefix') format('embedded-opentype'),
+		url('fonts/Metrize-Icons.woff') format('woff'),
+		url('fonts/Metrize-Icons.ttf') format('truetype'),
+		url('fonts/Metrize-Icons.svg#Metrize-Icons') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }

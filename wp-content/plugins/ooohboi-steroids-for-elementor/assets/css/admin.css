@@ -1,0 +1,361 @@
+/* Steroids settings page */
+
+/* 2.0.6 */
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;600&display=swap');
+:root {
+   --ele-btl-spinner-color-1: rgba(255,113,113, 0.9);
+   --ele-btl-spinner-color-2: rgba(0,0,0,0.5);
+   --ele-btl-checkbox-normal: #F1F1F1; 
+   --ele-btl-checkbox-checkd: #131A24;
+}
+
+/* 1.7.0 */
+a.toplevel_page_steroids_for_elementor .wp-menu-image img {
+	max-width: 16px;
+	filter: grayscale(100%) invert(100%);
+}
+a.toplevel_page_steroids_for_elementor.wp-not-current-submenu .wp-menu-image img {
+	filter: none;
+}
+
+.exopite-sof-wrapper.steroids_for_elementor-options * {
+	font-family: 'Barlow', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.exopite-sof-wrapper.steroids_for_elementor-options img {
+	max-width: 100%;
+	height: auto;
+}
+
+.exopite-sof-wrapper.steroids_for_elementor-options .sfe-intro p {
+	font-size: 20px;
+}
+
+.exopite-sof-wrapper.steroids_for_elementor-options .exopite-sof-content-nav .exopite-sof-sections {
+	background-image: url( '../../inc/img/sfe-bg-pattern.png' ); 
+	background-position: top left;
+	background-size: 100%; 
+	background-repeat: repeat-y;
+}
+
+.exopite-sof-wrapper.steroids_for_elementor-options .exopite-sof-content .list__item {
+	background-color: transparent;
+}
+
+.exopite-sof-wrapper.steroids_for_elementor-options .exopite-sof-section > .exopite-sof-field {
+	padding: 32px;
+}
+
+.exopite-sof-wrapper.steroids_for_elementor-options .exopite-sof-field .exopite-sof-title {
+	font-size: 16px;
+	position: relative;
+}
+.exopite-sof-wrapper.steroids_for_elementor-options .exopite-sof-field .exopite-sof-title:after {
+	content: '';
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	top: -1px;
+	left: -5px;
+	background-color: #ff0249;
+	opacity: 0.1;
+	border-radius: 0 0 20px 0;
+}
+
+.exopite-sof-wrapper.steroids_for_elementor-options .exopite-sof-field .exopite-sof-description {
+	font-size: 14px; 
+	font-weight: 400;
+	color: #444;
+	margin-top: 8px;
+}
+
+.exopite-sof-wrapper.steroids_for_elementor-options .checkbox__switch {
+	width: 3.6em;
+	background-color: rgba( 0, 0, 0, 0.05 );
+	border: none; 
+	border-radius: 50px;
+	height: 1.6em;
+}
+
+.exopite-sof-wrapper.steroids_for_elementor-options .checkbox__input:checked + .checkbox__switch {
+	border-color: #454264;
+	background-color: #454264; 
+	border-radius: 50px;
+}
+
+.exopite-sof-wrapper.steroids_for_elementor-options .checkbox__switch::after {
+	border-radius: 50px;
+	height: 1.6em;
+	width: 1.6em;
+}
+
+.exopite-sof-wrapper.steroids_for_elementor-options .checkbox__input:checked + .checkbox__switch::after {
+	left: 2em; 
+	height: 1.6em;
+	width: 1.6em;
+}
+
+.exopite-sof-wrapper.steroids_for_elementor-options .checkbox__input:checked + .checkbox__checkmark::before {
+	background: transparent;
+	border: none;
+}
+
+.exopite-sof-wrapper.steroids_for_elementor-options .exopite-sof-content .list {
+	border: none;
+	font-size: 13px;
+	text-transform: uppercase;
+	font-weight: 600;
+}
+
+.exopite-sof-wrapper.steroids_for_elementor-options .exopite-sof-content .list__item:active {
+	background: none;
+}
+
+.exopite-sof-wrapper.steroids_for_elementor-options .exopite-sof-content .list__item__left {
+	padding-right: 8px;
+}
+
+.exopite-sof-wrapper.steroids_for_elementor-options .list__item__center {
+	background-size: 0;
+	background: none;
+}
+
+.exopite-sof-wrapper.steroids_for_elementor-options .checkbox__checkmark::before {
+	background-color: rgba( 0, 0, 0, 0.05 );
+	border-radius: 50px;
+	border: none;
+}
+
+.exopite-sof-wrapper.steroids_for_elementor-options .checkbox--noborder__checkmark::after, 
+.exopite-sof-wrapper.steroids_for_elementor-options .checkbox__checkmark::after {
+	border-color: #ED2B5C;
+}
+.exopite-sof-wrapper.steroids_for_elementor-options .ob-alert {
+	background-color: #ffaca3;
+	padding: 5%;
+	margin-top: 5%;
+	font-size: 13px;
+	line-height: 1.4;
+	font-style: italic;
+	border-radius: 4px;
+}
+/* ------------ EXOPITE */
+
+.exopite-sof-wrapper.steroids_for_elementor-options > form {
+	padding: 0;
+}
+.exopite-sof-wrapper.steroids_for_elementor-options > form h2 {
+	font-size: 40px;
+	letter-spacing: -1px;
+	font-weight: 600;
+	margin-bottom: 24px;
+}
+.exopite-sof-wrapper.steroids_for_elementor-options > form h3 {
+	font-size: 24px;
+	letter-spacing: -0.5px;
+	font-weight: 600;
+}
+.exopite-sof-wrapper.steroids_for_elementor-options p, 
+.exopite-sof-wrapper.steroids_for_elementor-options ul:not(.exopite-sof-nav-list):not(.list) {
+	font-size: 16px;
+	line-height: 1.6;
+	margin: 0 0 1.5em;
+	font-weight: 400;
+	color: #3c3c3c;
+}
+.exopite-sof-wrapper.steroids_for_elementor-options .small-text {
+	position: relative;
+	font-size: 12px;
+	line-height: 1.4;
+}
+.exopite-sof-wrapper.steroids_for_elementor-options ul:not(.exopite-sof-nav-list):not(.list) {
+	list-style-type: square; 
+	list-style-position: outside;
+	margin: 1.5em 0;
+  	padding: 0 0 0 20px;
+}
+.exopite-sof-wrapper.steroids_for_elementor-options img {
+	max-width: 100%;
+	height: auto;
+}
+.exopite-sof-wrapper.steroids_for_elementor-options img[alt="RemPro.nl"] {
+	max-width: 200px;
+}
+.exopite-sof-wrapper.steroids_for_elementor-options img.pp {
+	width: 50%;
+}
+
+.exopite-sof-wrapper.steroids_for_elementor-options .exopite-sof-header {
+	background: none;
+	background-color: #131A24; 
+	box-shadow: none;
+	padding: 32px 20px;
+}
+.exopite-sof-wrapper.steroids_for_elementor-options .exopite-sof-nav, 
+.exopite-sof-wrapper.steroids_for_elementor-options .sfe-header {
+	background-color: #131A24; 
+}
+
+.exopite-sof-wrapper.steroids_for_elementor-options .exopite-sof-header h1 {
+	font-size: 2.4em;
+	font-weight: 600;
+	letter-spacing: -1px;
+}
+
+/* ==== GRID SYSTEM ==== */
+
+.exopite-sof-wrapper.steroids_for_elementor-options .container {
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+  }
+  
+.exopite-sof-wrapper.steroids_for_elementor-options .row {
+	position: relative;
+	width: 100%;
+  }
+  
+.exopite-sof-wrapper.steroids_for_elementor-options .row [class^="col"] {
+	float: left;
+	margin: 0.5rem 2%;
+	min-height: 0.125rem;
+  }
+  
+.exopite-sof-wrapper.steroids_for_elementor-options .col-1,
+.exopite-sof-wrapper.steroids_for_elementor-options .col-2,
+.exopite-sof-wrapper.steroids_for_elementor-options .col-3,
+.exopite-sof-wrapper.steroids_for_elementor-options .col-4,
+.exopite-sof-wrapper.steroids_for_elementor-options .col-5,
+.exopite-sof-wrapper.steroids_for_elementor-options .col-6,
+.exopite-sof-wrapper.steroids_for_elementor-options .col-7,
+.exopite-sof-wrapper.steroids_for_elementor-options .col-8,
+.exopite-sof-wrapper.steroids_for_elementor-options .col-9,
+.exopite-sof-wrapper.steroids_for_elementor-options .col-10,
+.exopite-sof-wrapper.steroids_for_elementor-options .col-11,
+.exopite-sof-wrapper.steroids_for_elementor-options .col-12 {
+	width: 96%;
+  }
+  
+.exopite-sof-wrapper.steroids_for_elementor-options .col-1-sm {
+	width: 4.33%;
+  }
+  
+.exopite-sof-wrapper.steroids_for_elementor-options .col-2-sm {
+	width: 12.66%;
+  }
+  
+  .exopite-sof-wrapper.steroids_for_elementor-options .col-3-sm {
+	width: 21%;
+  }
+  
+.exopite-sof-wrapper.steroids_for_elementor-options .col-4-sm {
+	width: 29.33%;
+  }
+  
+.exopite-sof-wrapper.steroids_for_elementor-options .col-5-sm {
+	width: 37.66%;
+  }
+  
+.exopite-sof-wrapper.steroids_for_elementor-options .col-6-sm {
+	width: 46%;
+  }
+  
+.exopite-sof-wrapper.steroids_for_elementor-options .col-7-sm {
+	width: 54.33%;
+  }
+  
+.exopite-sof-wrapper.steroids_for_elementor-options .col-8-sm {
+	width: 62.66%;
+  }
+  
+.exopite-sof-wrapper.steroids_for_elementor-options .col-9-sm {
+	width: 71%;
+  }
+  
+.exopite-sof-wrapper.steroids_for_elementor-options .col-10-sm {
+	width: 79.33%;
+  }
+  
+.exopite-sof-wrapper.steroids_for_elementor-options .col-11-sm {
+	width: 87.66%;
+  }
+  
+.exopite-sof-wrapper.steroids_for_elementor-options .col-12-sm {
+	width: 96%;
+  }
+  
+.exopite-sof-wrapper.steroids_for_elementor-options .row::after {
+	  content: "";
+	  display: table;
+	  clear: both;
+  }
+  
+.exopite-sof-wrapper.steroids_for_elementor-options .hidden-sm {
+	display: none;
+}
+  
+@media only screen and (min-width: 33.75em) {  /* 540px */
+	.exopite-sof-wrapper.steroids_for_elementor-options .container {
+	  width: 100%;
+	}
+}
+  
+@media only screen and (min-width: 45em) {  /* 720px */
+	.exopite-sof-wrapper.steroids_for_elementor-options .col-1 {
+	  width: 4.33%;
+	}
+  
+	.exopite-sof-wrapper.steroids_for_elementor-options .col-2 {
+	  width: 12.66%;
+	}
+  
+	.exopite-sof-wrapper.steroids_for_elementor-options .col-3 {
+	  width: 21%;
+	}
+  
+	.exopite-sof-wrapper.steroids_for_elementor-options .col-4 {
+	  width: 29.33%;
+	}
+  
+	.exopite-sof-wrapper.steroids_for_elementor-options .col-5 {
+	  width: 37.66%;
+	}
+  
+	.exopite-sof-wrapper.steroids_for_elementor-options .col-6 {
+	  width: 46%;
+	}
+  
+	.exopite-sof-wrapper.steroids_for_elementor-options .col-7 {
+	  width: 54.33%;
+	}
+  
+	.exopite-sof-wrapper.steroids_for_elementor-options .col-8 {
+	  width: 62.66%;
+	}
+  
+	.exopite-sof-wrapper.steroids_for_elementor-options .col-9 {
+	  width: 71%;
+	}
+  
+	.exopite-sof-wrapper.steroids_for_elementor-options .col-10 {
+	  width: 79.33%;
+	}
+  
+	.exopite-sof-wrapper.steroids_for_elementor-options .col-11 {
+	  width: 87.66%;
+	}
+  
+	.exopite-sof-wrapper.steroids_for_elementor-options .col-12 {
+	  width: 96%;
+	}
+  
+	.exopite-sof-wrapper.steroids_for_elementor-options .hidden-sm {
+	  display: block;
+	}
+}
+  
+@media only screen and (min-width: 60em) { /* 960px */
+	.exopite-sof-wrapper.steroids_for_elementor-options .container {
+	  width: 100%;
+	}
+}

@@ -1,0 +1,11 @@
+ul.elementor-control-html5sortable li {
+    cursor: pointer;
+    border: 1px solid #d5dadf;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 3px;
+}
+
+ul.elementor-control-html5sortable li i {
+    padding-right: 10px;
+}
