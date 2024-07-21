@@ -11,11 +11,11 @@
 	<atom:link href="https://www.kamiwebproject.com/comments/feed/" rel="self" type="application/rss+xml" />
 	<link>https://www.kamiwebproject.com</link>
 	<description></description>
-	<lastBuildDate>Sat, 20 Jul 2024 16:21:02 +0000</lastBuildDate>
+	<lastBuildDate>Sun, 21 Jul 2024 16:44:17 +0000</lastBuildDate>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.5.5</generator>
+	<generator>https://wordpress.org/?v=6.6</generator>
 </channel>
 </rss>
